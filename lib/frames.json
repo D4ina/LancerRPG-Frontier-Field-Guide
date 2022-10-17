@@ -1,0 +1,232 @@
+[
+  {
+    "id": "imc_atlas",
+    "license_level": 1,
+    "source": "IMC",
+    "name": "ATLAS",
+    "mechtype": [
+      "Striker"
+    ],
+    "image_url": "https://www.dropbox.com/s/tsk987szzfk6z71/atlas-imc.png?raw=1",
+    "y_pos": 17,
+    "description": "The Stryder is a Titan chassis developed and manufactured by Hammond Robotics. Developed as an extremely mobile and maneuverable Titan variant, the Stryder's almost skeletal design has been optimized for superior speed and agility. Significant improvements have been made to its Dash Core, enabling it to use it more frequently, while the Titan can also sprint for greater distances, making it perfect for hit-and-run attacks, ambushes and rapid redeployments. Unfortunately, this speed comes at a price. The Stryder's design is stripped down compared to other Titan variants, and its armor is largely non-existent, making it much more fragile in combat. In Titan-vs-Titan engagements, Stryder Pilots must use all available cover and their machine's impressive speed to outflank and evade their heavier adversaries, as they are unlikely to survive a straight-up slugfest.",
+    "mounts": [
+      "Main",
+      "Integrated",
+      "Flex"
+    ],
+    "stats": {
+      "size": 1,
+      "structure": 4,
+      "stress": 4,
+      "armor": 2,
+      "hp": 12,
+      "evasion": 6,
+      "edef": 8,
+      "heatcap": 4,
+      "repcap": 4,
+      "sensor_range": 5,
+      "tech_attack": 0,
+      "save": 10,
+      "speed": 6,
+      "sp": 5
+    },
+    "traits": [
+      {
+        "name": "Chamelion Systems",
+        "description": "ATLAS has a unique system that allows their system to be used with any of IMCs other equipment from other frames. <i>(As long as it has the right hardpoints)</i>"
+      },
+      {
+        "name": "Ion Coating",
+        "description": "ATLAS"
+      },
+      {
+        "name": "Custom Venting",
+        "description": "ATLAS passivly reduces 1 heat at the begining of its activation.",
+        "synergies": [
+          {
+            "locations": [ "engineering", "heat" ],
+            "detail": "ATLAS passivly reduces 1 heat at the begining of its activation."
+          }
+        ]
+      }
+    ],
+    "core_system": {
+      "name": "Power Drive",
+      "description": "Damage Core is a special core ability for the ATLAS Titan. When activated, after 2.5 seconds it will allow players to dash as much as possible for 12.6 seconds, 17.892 seconds with Core Extender, and instantly starts your Titan's shield recharge.",
+      "active_name": "Damage Core",
+      "active_effect": "Upon activation the Stryder gains the folowing Effects until the end of its next turn:<br> - Stryder gains +2 to Agility checks and Saves<br> - Stryder gains max movement equal to its dash.<br> - Upon ending its turn complete the 'Stabilize' full action.",
+      "activation": "Quick",
+      "use": "Next Round",
+      "tags": [
+        {
+          "id": "tg_speedboost",
+          "val": 1
+        }
+      ]
+    }
+  },
+
+  {
+    "id": "imc_stryder",
+    "license_level": 1,
+    "source": "IMC",
+    "name": "STRYDER",
+    "mechtype": [
+      "Support"
+    ],
+    "image_url": "https://www.dropbox.com/s/81p0wa8kg2fai3f/stryder-imv.png?raw=1",
+    "y_pos": 17,
+    "description": "The Stryder is a Titan chassis developed and manufactured by Hammond Robotics. Developed as an extremely mobile and maneuverable Titan variant, the Stryder's almost skeletal design has been optimized for superior speed and agility. Significant improvements have been made to its Dash Core, enabling it to use it more frequently, while the Titan can also sprint for greater distances, making it perfect for hit-and-run attacks, ambushes and rapid redeployments. Unfortunately, this speed comes at a price. The Stryder's design is stripped down compared to other Titan variants, and its armor is largely non-existent, making it much more fragile in combat. In Titan-vs-Titan engagements, Stryder Pilots must use all available cover and their machine's impressive speed to outflank and evade their heavier adversaries, as they are unlikely to survive a straight-up slugfest.",
+    "mounts": [
+      "Main",
+      "Integrated",
+      "Flex"
+    ],
+    "stats": {
+      "size": 1,
+      "structure": 3,
+      "stress": 4,
+      "armor": 1,
+      "hp": 10,
+      "evasion": 10,
+      "edef": 8,
+      "heatcap": 5,
+      "repcap": 4,
+      "sensor_range": 6,
+      "tech_attack": 0,
+      "save": 10,
+      "speed": 6,
+      "sp": 3
+    },
+    "traits": [
+      {
+        "name": "Thin Frame",
+        "description": "If you move during your turn your armor is equal to 3 until the start of your next turn."
+      },
+      {
+        "name": "[REACTION] Dash Capacitor (3 Turn Cooldown)",
+        "description": "Stryder gains a recharging dash that can allows the titan to move 1 hex in any direction. Should your reaction be triggered by an attack, STRYDERs pilot will be required to make an agility save. Dash Capacitor requires 3 turns cooldown after use."
+      },
+	    {
+        "name": "Purpose Built",
+        "description": "Stryder was built for use in support roles. Stryder gains +1 to hit an enemy that attacked a friendly Titan this turn."
+      },
+      {
+        "name": "Gel Joints",
+        "description": "Styder has -1 Difficulty on Agility checks and saves.",
+        "synergies": [
+          {
+            "locations": [ "agility", "skill_check" ],
+            "detail": "The Stryder gains +1 on Agility checks and saves."
+          }
+        ]
+      }
+    ],
+    "core_system": {
+      "name": "Overdrive Subsystems",
+      "description": "Dash Core is a special core ability for the Stryder Titan. When activated, after 2.5 seconds it will allow players to dash as much as possible for 12.6 seconds, 17.892 seconds with Core Extender, and instantly starts your Titan's shield recharge.",
+      "active_name": "Dash Core",
+      "active_effect": "Upon activation the Stryder gains the folowing Effects until the end of its next turn:<br> - Stryder gains +2 to Agility checks and Saves<br> - Stryder gains max movement equal to its dash.<br> - Upon ending its turn complete the 'Stabilize' full action.",
+      "activation": "Quick",
+      "use": "Next Round",
+      "tags": [
+        {
+          "id": "tg_speedboost",
+          "val": 1
+        }
+      ]
+    }
+  },
+
+  {
+    "id": "imc_ogre",
+    "license_level": 1,
+    "source": "IMC",
+    "name": "OGRE",
+    "mechtype": [
+        "Defender"
+    ],
+    "image_url": "https://www.dropbox.com/s/92r79x3xp0k4pk9/ogre-imc.png?raw=1",
+    "y_pos": 16,
+    "description": "The H-KA02/a Ogre Heavy Titan is a Titan model produced by Hammond Armament Division and Wonyeon Defense. Developed as an extremely tough Titan chassis, the Ogre's design has been compared to a main battle tank, optimized for taking higher amounts of damage and dealing out more than the Atlas or Stryder Titans. The Ogre stands slightly taller than the Atlas and has bulkier armor. The main entry point of an Ogre is via a large hatch on its top rather than the chest, like the Atlas or Stryder. The Ogre is equipped with a Shield Core, which amps the Titan's shield for a limited time.",
+    "mounts": [
+        "Heavy",
+        "Integrated",
+        "Aux"
+    ],
+    "stats": {
+        "size": 2,
+        "structure": 5,
+        "stress": 4,
+        "armor": 4,
+        "hp": 12,
+        "evasion": 8,
+        "edef": 8,
+        "heatcap": 5,
+        "repcap": 6,
+        "sensor_range": 4,
+        "tech_attack": 0,
+        "save": 10,
+        "speed": 3,
+        "sp": 6
+    },
+    "traits": [
+      {
+        "name": "ITS A WALKING FRIDGE",
+        "description": "OGRE can be used for hard cover by adjacent allied characters. OGRE also counts as one size above for the purpose of interactions."
+      },
+      {
+        "name": "Heavy Frame",
+        "description": "OGRE cannot be knocked back, pushed, pulled, or be knocked prone by actors smaller than itself."
+      },
+      {
+        "name": "Slow",
+        "description": "OGRE gets +1 Difficulty on agility checks and saves.",
+        "synergies": [
+          {
+            "locations": [ "agility", "skill_check" ],
+            "detail": "OGRE gains +1 Difficulty on Agility checks and saves."
+          }
+        ]
+      }
+    ],
+    "core_system": {
+      "name": "Shield Core",
+      "description": "Lifes good, I like living, so whats better than a litteral shield wall that blocks projectiles from hitting you while still being able to fire back.",
+      "active_name": "Big Blue Friend",
+      "active_effect": "Drop a lightwall barrier at your feet. It has 10hp and blocks all incoming projectiles as if it is hard cover. ",
+      "activation": "Quick",
+      "deactivation": "Quick",
+      "use": "Encounter",
+      "deployables": {
+        "name": "Hardwall",
+        "type": "Deployable Cover",
+        "detail": "Drop a wall at your Feet that wraps one hex to the left and right around where your mech is located.",
+        "size": "3",
+        "activation": "Quick",
+        "instances": 1,
+        "cost": 1,
+        "armor": 1,
+        "hp": 10,
+        "evasion": 0,
+        "save": 0,
+        "speed": 0,
+        "mech": 1,
+        "counters": {
+          "id": "shieldcorecounter",
+          "name": "Deployed Shield Capacity",
+          "default_value": 10,
+          "min": 0,
+          "max": 10
+        }
+      },
+      "tags": [
+          {
+            "id": "tg_smart_iff",
+            "val": "friendly"
+          }
+      ]
+    }
+  }
+]

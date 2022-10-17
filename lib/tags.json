@@ -1,0 +1,35 @@
+[
+  {
+    "id": "tg_dmg_arc",
+    "name": "Charged Rounds {VAL}",
+    "description": "Charged rounds grants electric or ARC damage equal to: {VAL}"
+  },
+  {
+    "id": "tg_speedboost",
+    "name": "Servo Boost {VAL}",
+    "description": "Grants the Titan extended movement capabilities while moving on the ground equal to: {VAL}"
+  },
+  {
+    "id": "tg_smart_iff",
+    "name": "Smart IFF Tagging",
+    "description": "Allows friendly fire to pass your placed cover while still blocking enemy fire."
+  },
+  {
+    "id": "tg_tactical_equipment",
+    "name": "Tactical Equipment",
+    "description": "Tactical Equipment, a deployable that supports a titans loadout.",
+    "filter_ignore": true
+  },
+  {
+    "id": "tg_ordinance",
+    "name": "Ordinance",
+    "description": "Ordinance used by a titan. These are mainly Auxiliary slots, but could also be used in a titans active ability.",
+    "filter_ignore": true
+  },
+  {
+    "id": "tg_pilot_ability",
+    "name": "Pilot Abilities",
+    "description": "Pilot tasks that can be started outside your titan but must finish the turn back inside your titan.",
+    "filter_ignore": true
+  }
+]

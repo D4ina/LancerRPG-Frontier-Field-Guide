@@ -1,0 +1,11 @@
+[
+  {
+    "id": "IMC",
+    "name": "Interstellar Mining Corperation",
+    "light": "#41416A",
+    "dark": "#7681BB",
+    "description": "The IMC, formerly called Hammond Engineering, is a massive industrial conglomerate based on Earth. With Earth's support, IMC deployed its fleets to the distant, independent human colony worlds to exploit their rich resources. Facing the loss of their homes and freedom to the IMC invaders, the colonists formed a militia known as the Frontier Militia and fought back, sparking a civil war that spread throughout human space. The founder of the IMC was Doctor Hammond said to be at least 200 years old (or dead depending on who is talking) and the current chairman is known as Hammond Jr or Mister Hammond, a descendent of the founder.",
+    "quote": "<i>Alright, alright. How about we settle this outside the cockpit?</i>",
+    "logo_url": "https://www.dropbox.com/s/gqy2twmqoknzhpt/IMC_Icon.svg?raw=1"
+  }
+]

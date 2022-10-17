@@ -1,0 +1,221 @@
+[{
+"id": "gs_raildriver",
+"name": "RAIL-DRIVER",
+"mount": "Heavy",
+"type": "Melee",
+"damage": [
+{ "type": "Kinetic",
+  "val": "2d6"
+}
+],
+"range": [{
+  "type": "Threat",
+  "val": 1
+}],
+"tags": [{
+  "id": "tg_heat_self",
+  "val": 1
+},
+{
+"id": "tg_knockback",
+"val": 2  
+}]
+},
+
+  {
+    "id": "gs_molten_driver",
+    "name": "MOLTEN DRIVER",
+    "mount": "Heavy",
+    "type": "Cannon",
+    "damage": [
+      {
+        "type": "Kinetic",
+        "val": "1d6+3"
+      }
+    ],
+    "range": [
+            {
+        "type": "Line",
+        "val": 5
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_unreliable_x",
+        "val": 1
+      },
+      {
+        "id": "tg_exceed",
+	      "val": 2
+      }
+    ],
+    "source": "G&S",
+    "license": "JOHN HENRY",
+    "license_level": 1,
+    "effect": "Exceed (2): This weapon gains +1d6 Bonus Damage",
+    "description": "An iconic piece of equipment for those used to work on Solar Rails, this frankly massive railgun is used mostly for anchoring void-resistant plating to the outside of space stations and is capable of superheating the rails it fires to help with penetration of those heavy materials. The military version forgoes the traditional luna titanium spikes for spikes made almost entirely of Adamant Compounds.",
+    "sp": 0
+  },
+  {
+    "id": "gs_big_bend_bunker",
+    "name": "'BIG BEND' CLASS PILEBUNKER'",
+    "mount": "Superheavy",
+    "type": "Melee",
+    "damage": [
+      {
+        "type": "Kinetic",
+        "val": "4d6+2"
+      }
+    ],
+    "range": [
+            {
+        "type": "Cone",
+        "val": 3
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_loading"
+      },
+      {
+        "id": "tg_reliable",
+        "val": 4
+      }
+    ],
+    "source": "G&S",
+    "license": "JOHN HENRY",
+    "license_level": 3,
+    "effect": "When unloaded, this weapon may be used with the following profile:<br>Superheavy Melee<br>Threat 1<br> 2d6+2 Kinetic Damage",
+    "description": "Traditionally mech-scale pilebunkers pull back the pistons in a prompt manner, allowing  a rapid use of the full force of the blows. The Big Bend however, is based on much older designs (including the rumoured and feared “Judgement” ) and requires at least a dozen seconds to fully prime for firing. But when it does fire, hoo boy.",
+    "sp": 0
+  },
+  {
+    "id": "gs_shot_spear",
+    "name": "SHOT-SPEAR",
+    "mount": "Main",
+    "type": "Melee",
+    "damage": [
+      {
+        "type": "Kinetic",
+        "val": "1d6+4"
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 2
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_loading"
+      }
+    ],
+    "source": "G&S",
+    "license": "VOLK",
+    "license_level": 2,
+    "effect": "You may continue to use this weapon without reloading it, dealing 1d6 Kinetic damage on hit.",
+    "description": "A hunting spear with underslung shotgun, originally designed to be used at human-scale for boar hunting. You ever go hunting boars, pilot? Nasty critters. Don’t know when to die. That’s why we put a shotgun in the spear, so you could shoot the boar afore it pushed down the spear and et your damn face. What was I talkin about? Oh yeah! We made it big enough for a mech, so give it a try!",
+    "sp": 0
+  },
+  {
+    "id": "gs_askr_hypersaw",
+    "name": "ASKR HYPERSAW",
+    "mount": "Main",
+    "type": "Melee",
+    "damage": [
+      {
+        "type": "Kinetic",
+        "val": "1d6+2"
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
+    "source": "G&S",
+    "license": "VOLK",
+    "license_level": 3,
+    "on_crit": "Your target must pass a Hull save or become Shredded until the end of their next turn and knocked Prone, only becoming Prone on a successful save.",
+    "description": "Combat chainsaws have ever been the obsession of all good mech technicians. We at G&S like to think that between the Fenrir Shredders and the Askr, that we have the finest chainsaws on the market for both combat and utility purposes. The Askr, especially, hits like a truck, chewing up armor and myomar like nobody’s business! Our advice, swing for the legs, bring ‘em down like a tree!",
+    "sp": 0
+  },
+
+  {
+    "id": "gs_jet_axe",
+    "name": "JET AXE",
+    "mount": "Heavy",
+    "type": "Melee",
+    "damage": [
+      {
+        "type": "Kinetic",
+        "val": "3d3+2"
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 2
+      }
+    ],
+    "tags": [
+
+      {
+        "id": "tg_knockback",
+	      "val": "X"
+      },
+      {
+        "id": "tg_overkill"
+      }
+    ],
+    "source": "G&S",
+    "license": "BUNYAN",
+    "license_level": 1,
+    "effect": "The knockback of this weapon is equal to the amount of times Overkill is triggered while rolling damage.",
+    "description": "Would you believe me if I told you this was supposed to be for lumber? Yeah with the jet engine and everything. They get some bigass trees out in the frontier, so we figured, make the axe faster! S’just physics, right? Well, ends up, its actually pretty good for baseball swinging fools the hell out of your buddy’s face when you really open up the jets and let the heat through your frame. What do you mean you don’t know what baseball is.",
+    "sp": 0
+  },
+
+  {
+    "id": "gs_flash_mortar",
+    "name": "FLASH-AMMO MORTAR",
+    "mount": "Heavy",
+    "type": "Cannon",
+    "damage": [
+      {
+        "type": "Kinetic",
+        "val": "3d6"
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 15
+      },
+      {
+        "type": "Blast",
+        "val": 2
+      }
+    ],
+    "tags": [
+
+      {
+        "id": "tg_fake_limited"
+      },
+      {
+        "id": "tg_arcing"
+      },
+      {
+        "id": "tg_ap"
+      }      
+    ],
+    "source": "G&S",
+    "license": "BUNYAN",
+    "license_level": 3,
+    "effect": "This weapon’s Limited charges do not increase with Engineering, nor any other Core Bonus or effect that increases limited charges. However, you may expend Repairs to fire this gun instead of using its Limited Charge.",
+    "description": "Yaknow, you can make some pretty cool ammo out of nanoslurry and spare parts! It's true, which is how the Flash-Ammo Mortar fires. Weight restrictions on what our printers could handle means you sorta have to shoot spare parts out of it, but, it hits like a damn truck. Hell! It hits like a whole damn starship!",
+    "sp": 0
+  }
+]

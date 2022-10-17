@@ -1,0 +1,25 @@
+[
+  {
+    "id": "sys_rodeo",
+    "name": "Rodeo Protocol",
+    "license": "",
+    "license_level": 0,
+    "source": "IMC",
+    "effect": "Steal 1d8 Hit Points from target Titan and add the value to yourself. Reduce heat by 1d3.",
+    "type": "System",
+    "sp": 1,
+    "description": "Should a pilot rodeo another titan and successfully grab a battery, they may reduce heat by 1d3 and gain 1d8 hp upon embarking with the battery.",
+    "actions": {
+      "name": "Titan Rodeo",
+      "activation": "Full",
+      "detail": "Steal 1d8 Hit Points from target Titan and add the value to yourself. Reduce heat by 1d3.",
+      "cost": 1,
+      "pilot": true 
+    },
+    "tags": [
+      {
+        "id": "tg_pilot_ability"
+      }
+    ]
+  }
+]
