@@ -228,5 +228,96 @@
           }
       ]
     }
+  },
+
+  {
+    "id": "militia_vanguard",
+    "license_level": 2,
+    "source": "MILITIA",
+    "name": "VANGUARD",
+    "mechtype": [
+        "Balanced"
+    ],
+    "image_url": "https://www.dropbox.com/s/eo5ta4x005qu17l/vanguard.png?raw=1",
+    "y_pos": 16,
+    "description": "Vanguard, coming soon to a militia near you...",
+    "mounts": [
+        "Main",
+        "Integrated",
+        "Aux/Aux"
+    ],
+    "stats": {
+        "size": 2,
+        "structure": 5,
+        "stress": 4,
+        "armor": 4,
+        "hp": 12,
+        "evasion": 8,
+        "edef": 8,
+        "heatcap": 5,
+        "repcap": 6,
+        "sensor_range": 4,
+        "tech_attack": 0,
+        "save": 10,
+        "speed": 3,
+        "sp": 6
+    },
+    "traits": [
+      {
+        "name": "ITS A WALKING FRIDGE",
+        "description": "OGRE can be used for hard cover by adjacent allied characters. OGRE also counts as one size above for the purpose of interactions."
+      },
+      {
+        "name": "Heavy Frame",
+        "description": "OGRE cannot be knocked back, pushed, pulled, or be knocked prone by actors smaller than itself."
+      },
+      {
+        "name": "Slow",
+        "description": "OGRE gets +1 Difficulty on agility checks and saves.",
+        "synergies": [
+          {
+            "locations": [ "agility", "skill_check" ],
+            "detail": "OGRE gains +1 Difficulty on Agility checks and saves."
+          }
+        ]
+      }
+    ],
+    "core_system": {
+      "name": "Shield Core",
+      "description": "Lifes good, I like living, so whats better than a litteral shield wall that blocks projectiles from hitting you while still being able to fire back.",
+      "active_name": "Big Blue Friend",
+      "active_effect": "Drop a lightwall barrier at your feet. It has 10hp and blocks all incoming projectiles as if it is hard cover. ",
+      "activation": "Quick",
+      "deactivation": "Quick",
+      "use": "Encounter",
+      "deployables": {
+        "name": "Hardwall",
+        "type": "Deployable Cover",
+        "detail": "Drop a wall at your Feet that wraps one hex to the left and right around where your mech is located.",
+        "size": "3",
+        "activation": "Quick",
+        "instances": 1,
+        "cost": 1,
+        "armor": 1,
+        "hp": 10,
+        "evasion": 0,
+        "save": 0,
+        "speed": 0,
+        "mech": 1,
+        "counters": {
+          "id": "shieldcorecounter",
+          "name": "Deployed Shield Capacity",
+          "default_value": 10,
+          "min": 0,
+          "max": 10
+        }
+      },
+      "tags": [
+          {
+            "id": "tg_smart_iff",
+            "val": "friendly"
+          }
+      ]
+    }
   }
 ]
