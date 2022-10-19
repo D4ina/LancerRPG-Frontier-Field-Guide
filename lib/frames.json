@@ -34,11 +34,11 @@
     "traits": [
       {
         "name": "Chamelion Systems",
-        "description": "ATLAS has a unique system that allows their system to be used with any of IMCs other equipment from other frames. <i>(As long as it has the right hardpoints)</i>"
+        "description": "ATLAS has a unique OS that allows their system to be used with any of IMCs other equipment from other MK1 frames. <i>(As long as it has the right hardpoints)</i>"
       },
       {
         "name": "Ion Coating",
-        "description": "ATLAS"
+        "description": "ATLAS has a resistance to energy damage."
       },
       {
         "name": "Custom Venting",
