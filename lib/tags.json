@@ -10,6 +10,11 @@
     "description": "Grants the Titan extended movement capabilities while moving on the ground equal to: {VAL}"
   },
   {
+    "id": "tg_noheat",
+    "name": "Heat Evaporation {VAL}",
+    "description": "While system is active you take no additional heat but also don't don't loose heat aswell equal to: {VAL}. "
+  },
+  {
     "id": "tg_smart_iff",
     "name": "Smart IFF Tagging",
     "description": "Allows friendly fire to pass your placed cover while still blocking enemy fire."
