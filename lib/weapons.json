@@ -5,7 +5,7 @@
 	  "source": "IMC",
 	  "license": "OGRE",
 	  "license_id": "imc_ogre",
-	  "license_level": 1,
+	  "license_level": 2,
 	  "mount": "Auxiliary",
 	  "type": "Launcher",
 	  "cost": 1,
@@ -69,6 +69,7 @@
 		  }
 		]
 	},
+
 	{
 		"id": "imc_apa",
 		"name": "Anti Personel Autogun",
@@ -77,8 +78,8 @@
 		"licesne_id": "imc_atlas",
 		"license_level": 1,
 		"mount": "Auxiliary",
-		"type": "Rifle",
-		"cost": 0,
+		"type": "CQB",
+		"cost": 1,
 		"barrage": true,
 		"skirmish": true,
 		"no_attack": false,
@@ -86,17 +87,54 @@
 		"no_core_bonus": false,
 		"damage": [{
 		  "type": "Kinetic",
-		  "val": "1d6"
+		  "val": "1d4"
 		}],
 		"range": [{
 		  "type": "Range",
 		  "val": 4
 		}],
-		"sp": 1,
-		"description": "Short ranged, Autogun designed ",
-		"on_hit": "Damage continues to affect the target after the initial blast. At the begining of the targets turn, make another damage roll if the first was successful.",
+		"sp": 0,
+		"description": "Short ranged, Autogun designed for taking out infantry or tickling titans.",
 		"no_bonus": true,
 		"no_synergy": true,
+		"effect": "",
+		"tags": [
+		  {
+			  "id": "tg_ordinance"
+		  }
+		]
+	},
+
+	{
+		"id": "imc_lasermk1",
+		"name": "Ion Shot",
+		"source": "IMC",
+		"license": "Atlas",
+		"licesne_id": "imc_atlas",
+		"license_level": 2,
+		"mount": "Auxiliary",
+		"type": "Cannon",
+		"cost": 1,
+		"barrage": true,
+		"skirmish": true,
+		"no_attack": false,
+		"no_mods": false,
+		"no_core_bonus": false,
+		"damage": [{
+		  "type": "Energy",
+		  "val": "1d4+1"
+		}],
+		"range": [{
+		  "type": "Line",
+		  "val": 5
+		}],
+		"sp": 1,
+		"description": "The Ion shot would later become the Charged shot. Ranged laser shot, ignores 1 level of armor.",
+		"on_hit": "Ignore 1 level of armor",
+		"on_crit": "Ignore 2 levels of armor.",
+		"on_attack": "Gain 1 level of heat per attack. (This is added before your attack roll)",
+		"no_bonus": true,
+		"no_synergy": false,
 		"effect": "",
 		"tags": [
 		  {
