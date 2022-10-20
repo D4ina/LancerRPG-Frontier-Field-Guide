@@ -5,7 +5,7 @@
     "light": "#41416A",
     "dark": "#7681BB",
     "description": "The IMC, formerly called Hammond Engineering, is a massive industrial conglomerate based on Earth. With Earth's support, IMC deployed its fleets to the distant, independent human colony worlds to exploit their rich resources. Facing the loss of their homes and freedom to the IMC invaders, the colonists formed a militia known as the Frontier Militia and fought back, sparking a civil war that spread throughout human space. The founder of the IMC was Doctor Hammond said to be at least 200 years old (or dead depending on who is talking) and the current chairman is known as Hammond Jr or Mister Hammond, a descendent of the founder.",
-    "quote": "<i>Alright, alright. How about we settle this outside the cockpit?</i>",
+    "quote": "<i>I do not require your understanding, only your compliance.</i> - Elias Marder",
     "logo_url": "https://www.dropbox.com/s/gqy2twmqoknzhpt/IMC_Icon.svg?raw=1"
   },
   {
@@ -13,8 +13,8 @@
     "name": "FRONTIER MILITIA",
     "light": "#41416A",
     "dark": "#7681BB",
-    "description": "The IMC, formerly called Hammond Engineering, is a massive industrial conglomerate based on Earth. With Earth's support, IMC deployed its fleets to the distant, independent human colony worlds to exploit their rich resources. Facing the loss of their homes and freedom to the IMC invaders, the colonists formed a militia known as the Frontier Militia and fought back, sparking a civil war that spread throughout human space. The founder of the IMC was Doctor Hammond said to be at least 200 years old (or dead depending on who is talking) and the current chairman is known as Hammond Jr or Mister Hammond, a descendent of the founder.",
-    "quote": "<i>LETS GET TO WORK PILOTS!</i>",
-    "logo_url": "https://www.dropbox.com/s/gqy2twmqoknzhpt/IMC_Icon.svg?raw=1"
+    "description": "The Frontier Militia represents a territorial defense pact between the systems of the Frontier. They are a loosely governed mishmash of homesteaders, criminals, bandits, mercenaries, terrorists and pirates all rising up as 'citizen soldiers' when the need arises. Many homesteaders have taken on a 'can't beat 'em, join 'em' attitude regarding working alongside different criminal groups. Naturally the people in this melting pot don't always see eye to eye on how to deal with the IMC's exploitation of the Frontier, but they are unified in fighting against it.",
+    "quote": "<i>They'll call us terrorists or worse, but we can't win playing by their rules.</i> - James MacAllen",
+    "logo_url": "https://www.dropbox.com/s/a9sq7e173nsh4qg/militia.png?raw=1"
   }
 ]
