@@ -17,3 +17,7 @@ Hacker Frames, based on the Original 3 but take use of LancerRPGs hacking / Tech
 A bunch of Titanfall themed Mech Mods
 
 Better rules and equipment for Pilots so you can Rodeo to your hearts content.
+
+### KNOWN ISSUSES!
+
+IT IS A KNOWN ISSUE THAT if you have "The Long Rim Data .lcp" it will override some data on the Atlas frame. It is recommended that you disable other .lpc's if you are having issues with data displaying.

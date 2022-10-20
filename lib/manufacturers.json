@@ -11,8 +11,8 @@
   {
     "id": "MILITIA",
     "name": "FRONTIER MILITIA",
-    "light": "#41416A",
-    "dark": "#7681BB",
+    "light": "#555C2F",
+    "dark": "#70820E",
     "description": "The Frontier Militia represents a territorial defense pact between the systems of the Frontier. They are a loosely governed mishmash of homesteaders, criminals, bandits, mercenaries, terrorists and pirates all rising up as 'citizen soldiers' when the need arises. Many homesteaders have taken on a 'can't beat 'em, join 'em' attitude regarding working alongside different criminal groups. Naturally the people in this melting pot don't always see eye to eye on how to deal with the IMC's exploitation of the Frontier, but they are unified in fighting against it.",
     "quote": "<i>They'll call us terrorists or worse, but we can't win playing by their rules.</i> - James MacAllen",
     "logo_url": "https://www.dropbox.com/s/a9sq7e173nsh4qg/militia.png?raw=1"
