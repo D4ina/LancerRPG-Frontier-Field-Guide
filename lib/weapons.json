@@ -68,5 +68,41 @@
 			  "id": "tg_ordinance"
 		  }
 		]
+	},
+	{
+		"id": "imc_apa",
+		"name": "Anti Personel Autogun",
+		"source": "IMC",
+		"license": "Atlas",
+		"licesne_id": "imc_atlas",
+		"license_level": 1,
+		"mount": "Auxiliary",
+		"type": "Rifle",
+		"cost": 0,
+		"barrage": true,
+		"skirmish": true,
+		"no_attack": false,
+		"no_mods": true,
+		"no_core_bonus": false,
+		"damage": [{
+		  "type": "Kinetic",
+		  "val": "1d6"
+		}],
+		"range": [{
+		  "type": "Range",
+		  "val": 4
+		}],
+		"sp": 1,
+		"description": "Short ranged, Autogun designed ",
+		"on_hit": "Damage continues to affect the target after the initial blast. At the begining of the targets turn, make another damage roll if the first was successful.",
+		"no_bonus": true,
+		"no_synergy": true,
+		"effect": "",
+		"tags": [
+		  {
+			  "id": "tg_ordinance"
+		  }
+		]
 	}
+
 ]
