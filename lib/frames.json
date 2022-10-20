@@ -9,11 +9,11 @@
     ],
     "image_url": "https://www.dropbox.com/s/tsk987szzfk6z71/atlas-imc.png?raw=1",
     "y_pos": 13,
-    "description": "The Stryder is a Titan chassis developed and manufactured by Hammond Robotics. Developed as an extremely mobile and maneuverable Titan variant, the Stryder's almost skeletal design has been optimized for superior speed and agility. Significant improvements have been made to its Dash Core, enabling it to use it more frequently, while the Titan can also sprint for greater distances, making it perfect for hit-and-run attacks, ambushes and rapid redeployments. Unfortunately, this speed comes at a price. The Stryder's design is stripped down compared to other Titan variants, and its armor is largely non-existent, making it much more fragile in combat. In Titan-vs-Titan engagements, Stryder Pilots must use all available cover and their machine's impressive speed to outflank and evade their heavier adversaries, as they are unlikely to survive a straight-up slugfest.",
+    "description": "The Atlas is the oldest Titan model on the Frontier and has instigated the development of both the Stryder and Ogre patterns. It was used through the Titan Wars, and onto the Frontier War where the Titanfall games take place.[1] The Atlas is equipped with a Damage Core, which, when ready, the pilot can activate on command to substantially increase damage dealt by the titan.",
     "mounts": [
       "Main",
       "Integrated",
-      "Flex"
+      "Aux/Aux"
     ],
     "stats": {
       "size": 1,
@@ -28,7 +28,7 @@
       "sensor_range": 5,
       "tech_attack": 0,
       "save": 10,
-      "speed": 6,
+      "speed": 4,
       "sp": 5
     },
     "traits": [
@@ -55,12 +55,20 @@
       "name": "Power Drive",
       "description": "Damage Core is a special core ability for the ATLAS Titan. When activated, after 2.5 seconds it will allow players to dash as much as possible for 12.6 seconds, 17.892 seconds with Core Extender, and instantly starts your Titan's shield recharge.",
       "active_name": "Damage Core",
-      "active_effect": "Upon activation the Stryder gains the folowing Effects until the end of its next turn:<br> - Stryder gains +2 to Agility checks and Saves<br> - Stryder gains max movement equal to its dash.<br> - Upon ending its turn complete the 'Stabilize' full action.",
+      "active_effect": "Upon core activation the ATLAS gains doubles all damage until the turn timer runs out (Though you may deactivate it earlier). Each round the damage core is active it reduces the counter down by 1 and regains 1 point for every round deactivated.",
       "activation": "Quick",
-      "use": "Next Round",
+      "deactivation": "Free",
+      "use": "Round",
+      "counters": {
+        "id": "damagecore",
+        "name": "Damage Core Countdown",
+        "default_value": 4,
+        "min": 0,
+        "max": 4
+      },
       "tags": [
         {
-          "id": "tg_speedboost",
+          "id": "tg_noheat",
           "val": 1
         }
       ]
@@ -239,7 +247,7 @@
         "Balanced"
     ],
     "image_url": "https://www.dropbox.com/s/eo5ta4x005qu17l/vanguard.png?raw=1",
-    "y_pos": 16,
+    "y_pos": 43,
     "description": "Vanguard, coming soon to a militia near you...",
     "mounts": [
         "Main",
@@ -303,14 +311,7 @@
         "evasion": 0,
         "save": 0,
         "speed": 0,
-        "mech": 1,
-        "counters": {
-          "id": "shieldcorecounter",
-          "name": "Deployed Shield Capacity",
-          "default_value": 10,
-          "min": 0,
-          "max": 10
-        }
+        "mech": 1
       },
       "tags": [
           {
