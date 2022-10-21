@@ -126,7 +126,7 @@
 		}],
 		"range": [{
 		  "type": "Line",
-		  "val": 5
+		  "val": 10
 		}],
 		"sp": 1,
 		"description": "The Ion shot would later become the Charged shot. Ranged laser shot, ignores 1 level of armor.",
@@ -135,6 +135,47 @@
 		"on_attack": "Gain 1 level of heat per attack. (This is added before your attack roll)",
 		"no_bonus": true,
 		"no_synergy": false,
+		"effect": "",
+		"tags": [
+		  {
+			  "id": "tg_ordinance"
+		  }
+		]
+	},
+
+	{
+		"id": "imc_rocketsalvo",
+		"name": "Rocket Salvo",
+		"source": "IMC",
+		"license": "Stryder",
+		"licesne_id": "imc_Stryder",
+		"license_level": 1,
+		"mount": "Auxiliary",
+		"type": "Launcher",
+		"cost": 1,
+		"barrage": true,
+		"skirmish": true,
+		"no_attack": false,
+		"no_mods": true,
+		"no_core_bonus": false,
+		"damage": [{
+		  "type": "Explosive",
+		  "val": "1d6"
+		}],
+		"range": [
+			{
+				"type": "Range",
+				"val": 6
+			},
+			{
+				"type": "Blast",
+				"val": 1
+			}
+		],
+		"sp": 1,
+		"description": "The Rocket Salvo is a heavy weapon used by Titans that fires a multitude of rockets in a spiral pattern at its target which explode on impact.",
+		"no_bonus": true,
+		"no_synergy": true,
 		"effect": "",
 		"tags": [
 		  {
