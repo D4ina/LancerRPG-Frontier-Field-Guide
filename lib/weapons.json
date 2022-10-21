@@ -1,7 +1,7 @@
 [  
 	{
-	  "id": "imc_cluster_missile",
-	  "name": "Cluster Missile",
+	  "id": "imc_mtms",
+	  "name": "Multi Target Missile System",
 	  "source": "IMC",
 	  "license": "OGRE",
 	  "license_id": "imc_ogre",
@@ -16,25 +16,35 @@
 	  "no_core_bonus": false,
 	  "damage": [{
         "type": "Explosive",
-        "val": "3d3"
+        "val": "1d6"
       }],
-	  "range": [{
-        "type": "Range",
-        "val": 6
-      }],
+	  "range": [
+		{
+			"type": "Cone",
+			"val": 10
+      	},
+		{
+			"type": "Blast",
+			"val": 2
+		}
+	  ],
 	  "sp": 1,
-	  "description": "Missile releases a number of secondary explosives on contact.",
-	  "on_hit": "Damage continues to affect the target after the initial blast. At the begining of the targets turn, make another damage roll if the first was successful.",
+	  "description": "Paints up to 5 targets within the cone.",
+	  "on_attack": "State your targets (Up to five). Roll attacks and damage for each target. Reload after use.",
 	  "no_bonus": true,
 	  "no_synergy": true,
-	  "effect": "This is the Cluster Missiles Effect.",
+	  "effect": "",
 	  "tags": [
 		{
 			"id": "tg_ordinance"
+		},
+		{
+			"id": "tg_loading",
+			"val": 1
 		}
 	  ]
 	},
-	
+
 	{
 		"id": "imc_slaved_warhead",
 		"name": "Slaved Warhead",
