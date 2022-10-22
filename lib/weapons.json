@@ -158,7 +158,7 @@
 		"id": "imc_cluster_missile",
 		"name": "Cluster Missile",
 		"source": "IMC",
-		"license": "STRYDER",
+		"license": "Stryder",
 		"license_id": "imc_Stryder",
 		"license_level": 1,
 		"mount": "Auxiliary",
