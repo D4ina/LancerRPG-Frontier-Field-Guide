@@ -20,12 +20,6 @@
     "description": "Allows friendly fire to pass your placed cover while still blocking enemy fire."
   },
   {
-    "id": "tg_tactical_equipment",
-    "name": "Tactical Equipment",
-    "description": "Tactical Equipment, a deployable that supports a titans loadout.",
-    "filter_ignore": true
-  },
-  {
     "id": "tg_ordinance",
     "name": "Ordinance",
     "description": "Ordinance used by a titan. These are mainly Auxiliary slots, but could also be found as a titans active ability.",
