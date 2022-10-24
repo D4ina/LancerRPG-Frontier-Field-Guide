@@ -192,7 +192,7 @@
 				"damage": [
 					{
 						"type": "Explosive",
-						"val": "2d3+2"
+						"val": "8d3+2"
 					},
 					{
 						"type": "Heat",
@@ -213,6 +213,13 @@
 					{
 						"id": "tg_reliable",
 						"val": 2
+					},
+					{
+						"id": "tg_arcing"
+					},
+					{
+						"id": "tg_limited",
+						"val": 4
 					}
 				]
 			}
