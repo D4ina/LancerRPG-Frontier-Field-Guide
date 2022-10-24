@@ -31,8 +31,7 @@
 		"effect": "",
 		"tags": [
 		  {
-			  "id": "tg_loading",
-			  "val": 6
+			  "id": "tg_loading"
 		  }
 		]
 	},
@@ -97,8 +96,7 @@
 		"effect": "",
 		"tags": [
 		  {
-			  "id": "tg_loading",
-			  "val": 6
+			  "id": "tg_loading"
 		  }
 		]
 	},
