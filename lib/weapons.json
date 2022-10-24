@@ -208,6 +208,12 @@
 						"type": "Blast",
 						"val": 3
 					}
+				],
+				"tags":[
+					{
+						"id": "tg_reliable",
+						"val": 2
+					}
 				]
 			}
 		],
@@ -215,12 +221,7 @@
 		"description": "When the Quadrocket is fired the user gets down and supports the rear of the rocket with its knee. The Quadrocket can also be fired from an upright standard position as if firing a gun.",
 		"no_bonus": false,
 		"no_synergy": false,
-		"effect": "",
-		"tags": [
-		  {
-			  "id": "tg_ordinance"
-		  }
-		]
+		"effect": ""
 	},
 
 	{
