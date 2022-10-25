@@ -22,7 +22,7 @@
   {
     "id": "tg_ordinance",
     "name": "Ordinance",
-    "description": "Ordinance used by a titan. These are mainly Auxiliary slots, but could also be found as a titans active ability.",
+    "description": "Ordinance used by a titan. These are mainly Auxiliary slots, but could also be found as a titans active ability. Weapons with this tag can only be fired once per round. (Cannot be used in Barrage)",
     "filter_ignore": true
   },
   {

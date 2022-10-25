@@ -65,7 +65,9 @@
 					"type": "Range",
 					"val": 6
 					}
-				]
+				],
+				"tags": [
+				  ]
 			},
 			{
 				"name": "Charged",
@@ -86,19 +88,16 @@
 					"type": "Range",
 					"val": 6
 					}
-				]
+				],
+				"tags": [
+				  ]
 			}
 		],
 		"sp": 1,
 		"description": "The factory issue 40mm Cannon is a semi-automatic weapon that fires a high-explosive round with good accuracy.",
 		"no_bonus": true,
 		"no_synergy": true,
-		"effect": "",
-		"tags": [
-		  {
-			  "id": "tg_loading"
-		  }
-		]
+		"effect": ""
 	},
 
 	{
@@ -111,7 +110,7 @@
 	  "mount": "Auxiliary",
 	  "type": "Launcher",
 	  "cost": 1,
-	  "barrage": true,
+	  "barrage": false,
 	  "skirmish": true,
 	  "no_attack": false,
 	  "no_mods": false,
@@ -157,7 +156,7 @@
 		"mount": "Auxiliary",
 		"type": "Launcher",
 		"cost": 1,
-		"barrage": true,
+		"barrage": false,
 		"skirmish": true,
 		"no_attack": false,
 		"no_mods": false,
@@ -193,7 +192,7 @@
 		"mount": "Auxiliary",
 		"type": "CQB",
 		"cost": 1,
-		"barrage": true,
+		"barrage": false,
 		"skirmish": true,
 		"no_attack": false,
 		"no_mods": true,
@@ -228,7 +227,7 @@
 		"mount": "Auxiliary",
 		"type": "Cannon",
 		"cost": 1,
-		"barrage": true,
+		"barrage": false,
 		"skirmish": true,
 		"no_attack": false,
 		"no_mods": false,
@@ -320,8 +319,7 @@
 						"id": "tg_arcing"
 					},
 					{
-						"id": "tg_limited",
-						"val": 4
+						"id": "tg_loading"
 					}
 				]
 			}
@@ -343,7 +341,7 @@
 		"mount": "Auxiliary",
 		"type": "Launcher",
 		"cost": 1,
-		"barrage": true,
+		"barrage": false,
 		"skirmish": true,
 		"no_attack": false,
 		"no_mods": false,
@@ -379,7 +377,7 @@
 		"mount": "Auxiliary",
 		"type": "Launcher",
 		"cost": 1,
-		"barrage": true,
+		"barrage": false,
 		"skirmish": true,
 		"no_attack": false,
 		"no_mods": true,
