@@ -1,0 +1,26 @@
+[
+    {
+    "id": "tlnt_pltcert",
+    "name": "Certified Pilot",
+    "description": "100% Genuine Pilot. A Pilot is an elite soldier and operator of a Titan, possessing superior skills and equipment compared to the standard Grunt. Players take the role of Pilots in Titanfall and Titanfall 2, fighting as an operative of either the IMC, Frontier Militia or one of the many mercenaries out to seek fame and fortune from fighting the Frontier War.",
+    "ranks": [
+        {
+            "name": "EZ M' Bark",
+            "description": "While running you are concidered 'FLYING'. While flying you can do the following:<br>can move vertically along walls after jumping between two walls.",
+            "exclusive": false
+        },
+        {
+            "name": "Running in the 90s",
+            "description": "While running you are concidered 'FLYING'. While flying you can do the following:<br>can move vertically along walls after jumping between two walls.",
+            "exclusive": false
+        },
+        {
+            "name": "Texas Protocol",
+            "description": "While running you are concidered 'FLYING'. While flying you can do the following:<br>can move vertically along walls after jumping between two walls.",
+            "exclusive": false
+        }
+    ],
+    "icon_url": "https://www.dropbox.com/s/uneo422j5bk5bgg/pilot.svg?raw=1",
+    "terse": "We've got a friendly pilot coming through."
+  }
+]
