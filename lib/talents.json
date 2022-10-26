@@ -6,7 +6,7 @@
     "ranks": [
         {
             "name": "EZ M' Bark",
-            "description": "While running you are concidered 'FLYING'. While flying you can do the following:<br>can move vertically along walls after jumping between two walls.",
+            "description": "Entering and Exiting your Titan, is now a free action.",
             "exclusive": false
         },
         {
@@ -21,6 +21,6 @@
         }
     ],
     "icon_url": "https://www.dropbox.com/s/uneo422j5bk5bgg/pilot.svg?raw=1",
-    "terse": "We've got a friendly pilot coming through."
+    "terse": "PLTCERT."
   }
 ]
