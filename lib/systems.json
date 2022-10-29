@@ -14,7 +14,7 @@
       {
         "name": "Activate Shield",
         "activation": "Full",
-        "detail": "",
+        "detail": "Upon activating the ability block all damage until you deactivated it. Should you take damage while the system is active, do not reduce your hp. Instead reduce the shield counter by one for each attack. When deactivating the Shield pick a target within <b>RANGE: 10</b>, deal <b>2 Kinetic</b> damage for each captured attack. If your counter runs out you must pick a target within line of sight or all shots will miss. Add one to your counter for every turn the shield is deactivated.",
         "cost": 1,
         "pilot": false,
         "tech_attack": false  
