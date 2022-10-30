@@ -1,14 +1,24 @@
 [
     {
-    "id": "tlnt_pltcert",
-    "name": "Certified Pilot",
+    "id": "tlnt_ttnspec",
+    "name": "Titan Specialisation",
     "description": "100% Genuine Pilot. A Pilot is an elite soldier and operator of a Titan, possessing superior skills and equipment compared to the standard Grunt. Players take the role of Pilots in Titanfall and Titanfall 2, fighting as an operative of either the IMC, Frontier Militia or one of the many mercenaries out to seek fame and fortune from fighting the Frontier War.",
     "ranks": [
         {
             "name": "EZ M' Bark",
             "description": "Entering and Exiting your Titan, is now a free action.",
             "exclusive": false
-        },
+        }
+    ],
+    "icon_url": "https://www.dropbox.com/s/uneo422j5bk5bgg/titan.svg?raw=1",
+    "terse": "PLTCERT."
+  },
+
+  {
+    "id": "tlnt_pltspec",
+    "name": "Pilot Specialisation",
+    "description": "YOU ARE SPEEEED!",
+    "ranks": [
         {
             "name": "Running in the 90s",
             "description": "While running you are concidered 'FLYING'. While flying you can do the following:<br>can move vertically along walls after jumping between two walls.",
@@ -16,11 +26,20 @@
         },
         {
             "name": "Texas Protocol",
-            "description": "While running you are concidered 'FLYING'. While flying you can do the following:<br>can move vertically along walls after jumping between two walls.",
-            "exclusive": false 
+            "description": "While outside of your titan gain the ability to",
+            "exclusive": false,
+            "actions": [
+                {
+                    "name": "Rodeo",
+                    "activation": "Protocol",
+                    "detail": "If you are within 1 hex of an enemy titan grab on and remove 1 structure from the titan. When you re-embark on your titan increase your structure by 1.",
+                    "cost": 1,
+                    "pilot": true  
+                }
+            ]
         }
     ],
-    "icon_url": "https://www.dropbox.com/s/uneo422j5bk5bgg/pilot.svg?raw=1",
-    "terse": "PLTCERT."
+    "icon_url": "https://www.dropbox.com/s/nb1u2jh683tf4xe/pilot.svg?raw=1",
+    "terse": "INITIAL-D"
   }
 ]
