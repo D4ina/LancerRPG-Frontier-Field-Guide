@@ -9,11 +9,15 @@
     "sp": 1,
     "description": "Absorb incoming fire and redirect it back at the enemy.",
     "tags": [
+      {
+        "id": "tg_chargeability",
+        "val": 5
+      }
     ],
     "actions": [
       {
         "name": "Activate Shield",
-        "activation": "Full",
+        "activation": "Quick",
         "detail": "Upon activating the ability block all damage until you deactivated it. Should you take damage while the system is active, do not reduce your hp. Instead reduce the shield counter by one for each attack. When deactivating the Shield pick a target within <b>RANGE: 10</b>, deal <b>2 Kinetic</b> damage for each captured attack. If your counter runs out you must pick a target within line of sight or all shots will miss. Add one to your counter for every turn the shield is deactivated.",
         "cost": 1,
         "pilot": false,
@@ -27,6 +31,42 @@
         "default_value": 5,
         "min": 0,
         "max": 5
+      }
+    ]
+  },
+
+  {
+    "id": "sys_electricsmoke",
+    "name": "Electric Smoke",
+    "source": "IMC",
+    "license_level": 0,
+    "effect": "While within the smoke all titans gain -5 Difficulty to hit anything. Double damage from energy weapons after rolling damage, this only affects targets within the smoke.",
+    "type": "System",
+    "sp": 1,
+    "description": "Obscure vision and deal light damage.",
+    "tags": [
+      {
+        "id": "tg_chargeability",
+        "val": 3
+      }
+    ],
+    "actions": [
+      {
+        "name": "Activate Smoke",
+        "activation": "Quick",
+        "detail": "",
+        "cost": 1,
+        "pilot": false,
+        "tech_attack": false  
+      }
+    ],
+    "counters": [
+      {
+        "id": "count_elcsmok",
+        "name": "Smoke Countdown",
+        "default_value": 3,
+        "min": 0,
+        "max": 3
       }
     ]
   }
