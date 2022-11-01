@@ -69,5 +69,32 @@
         "max": 3
       }
     ]
+  },
+
+  {
+    "id": "sys_eautoloader",
+    "name": "Enhanced Autoloader",
+    "source": "IMC",
+    "license_level": 0,
+    "effect": "Ignore Weapons with the <b>(LOADING)</b> and <b>(ORDINANCE)</b> tags.",
+    "type": "System",
+    "sp": 2,
+    "description": "This advanced autoload mechanism replenishes your Titan Ordnance faster, making your Titan's Ordnance available more frequently.",
+    "tags": [
+    ]
+  },
+
+  {
+    "id": "sys_dashsystems",
+    "name": "Dash Jets",
+    "source": "IMC",
+    "license_level": 0,
+    "effect": "1 per round you may dash to avoid the attack. After the attack roll has been made, roll against their attack. If its an area or line attack and you beat it then you take half damage anything else you beat it then you ignore the damage. If you fail then you take normal damage.",
+    "type": "System",
+    "sp": 1,
+    "description": "Adds dash jets to react to incoming attacks and dodge out of the way.",
+    "tags": [
+    ]
   }
+
 ]
