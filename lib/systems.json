@@ -76,7 +76,7 @@
     "name": "Enhanced Autoloader",
     "source": "IMC",
     "license_level": 0,
-    "effect": "Ignore Weapons with the <b>(LOADING)</b> and <b>(ORDINANCE)</b> tags.",
+    "effect": "Weapons with the <b>(ORDINANCE)</b> tags ignore <b>(LOADING)</b>.",
     "type": "System",
     "sp": 2,
     "description": "This advanced autoload mechanism replenishes your Titan Ordnance faster, making your Titan's Ordnance available more frequently.",

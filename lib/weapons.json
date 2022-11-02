@@ -186,8 +186,8 @@
 		"id": "imc_xo16",
 		"name": "XO-16 Chaingun",
 		"source": "IMC",
-		"license": "Atlas",
-		"license_id": "imc_atlas",
+		"license": "ATLAS",
+		"license_id": "imc_ATLAS",
 		"license_level": 1,
 		"mount": "Main",
 		"type": "CQB",
@@ -219,7 +219,7 @@
 		"id": "imc_plasmarail",
 		"name": "Plasma Railgun",
 		"source": "IMC",
-		"license": "Atlas",
+		"license": "ATLAS",
 		"license_id": "imc_atlas",
 		"license_level": 3,
 		"mount": "Main",
@@ -258,7 +258,7 @@
 		"id": "imc_apa",
 		"name": "Anti Personel Autogun",
 		"source": "IMC",
-		"license": "Atlas",
+		"license": "ATLAS",
 		"licesne_id": "imc_atlas",
 		"license_level": 1,
 		"mount": "Auxiliary",
@@ -281,7 +281,7 @@
 		"description": "Short ranged, Autogun designed for taking out infantry or tickling titans. Mini XO-16.",
 		"no_bonus": true,
 		"no_synergy": true,
-		"effect": "",
+		"effect": "Auto Targets grunt infantry (Automatic Success).",
 		"tags": [
 		  {
 			  "id": "tg_ordinance"
@@ -293,7 +293,7 @@
 		"id": "imc_lasermk1",
 		"name": "Ion Shot",
 		"source": "IMC",
-		"license": "Atlas",
+		"license": "ATLAS",
 		"licesne_id": "imc_atlas",
 		"license_level": 2,
 		"mount": "Auxiliary",
@@ -313,19 +313,17 @@
 		  "val": 10
 		}],
 		"sp": 1,
-		"description": "The Ion shot would later become the Charged shot.",
-		"on_hit": "Ignore 1 level of armor",
-		"on_crit": "Ignore 2 levels of armor.",
+		"description": "(DEV UPDATE FOR FUTURE: REWORK ION SHOT TO TEMP DISABLE MECH) The Ion shot would later become the Charged shot.",
 		"on_attack": "Gain 1 level of heat per attack. (This is added before your attack roll)",
 		"no_bonus": true,
 		"no_synergy": false,
 		"effect": "",
 		"tags": [
 		  {
-			  "id": "tg_ordinance"
+				"id": "tg_ordinance"
 		  },
 		  {
-			"id": "tg_ap"
+				"id": "tg_ap"
 		  }
 		]
 	},
