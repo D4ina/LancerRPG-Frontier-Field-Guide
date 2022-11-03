@@ -198,7 +198,7 @@
     ],
     "core_system": {
       "name": "Shield Core",
-      "description": "Lifes good, I like living, so whats better than a litteral shield wall that blocks projectiles from hitting you while still being able to fire back.",
+      "description": "Lifes good, I like living, so whats better than a literal shield wall that blocks projectiles from hitting you while still being able to fire back.",
       "active_name": "Big Blue Friend",
       "active_effect": "Drop a lightwall barrier at your feet. It has 10hp and blocks all incoming projectiles as if it is hard cover. Once placed the Hardwall cannot be moved unless picked up and repositioned.",
       "activation": "Quick",
