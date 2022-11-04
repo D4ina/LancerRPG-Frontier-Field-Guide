@@ -20,7 +20,7 @@
 				"damage": [
 					{
 						"type": "Kinetic",
-						"val": "1d12+2"
+						"val": "1d10"
 					}
 				],
 				"range": [
@@ -130,7 +130,7 @@
 				"damage": [
 					{
 						"type": "Energy",
-						"val": "2d6+2"
+						"val": "1d6+2"
 					}
 				],
 				"range": [
@@ -139,6 +139,11 @@
 					"val": 6
 					}
 				],
+				"actions": [{
+					"name": "Standard Switch",
+					"activation": "Quick",
+					"detail": "Begin charging your cannon and switch to Charged mode"
+				}],
 				"tags": [
 				]
 			},
@@ -146,20 +151,22 @@
 				"name": "Charged",
 				"barrage": false,
 				"skirmish": true,
+				"effect": "For every round you hold your charge <b><u>Xd6</u></b> increase by 1, you also gain <b>accuracy</b> and <b>range</b> equal to the same value aswell. EG: Switch to charged mode hold for 3 rounds becomes 3d6.",
+				"on_attack": "When you fire in charged mode you <b>MUST</b> switch back to Standard.",
 				"damage": [
 					{
 						"type": "Energy",
-						"val": "1d10+2"
+						"val": "xd6"
 					},
 					{
 						"type": "Burn",
-						"val": 1
+						"val": "x"
 					}
 				],
 				"range": [
 					{
 					"type": "Range",
-					"val": 6
+					"val": "8+x"
 					}
 				],
 				"tags": [
