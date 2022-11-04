@@ -429,7 +429,7 @@
 		"no_core_bonus": false,
 		"damage": [{
 		  "type": "Kinetic",
-		  "val": "5d4"
+		  "val": "3d4"
 		}],
 		"range": [{
 		  "type": "Range",
