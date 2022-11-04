@@ -3,7 +3,7 @@
     "id": "imc_atlas",
     "license_level": 1,
     "source": "IMC",
-    "name": "ATLAS",
+    "name": "Atlas",
     "mechtype": [
       "Striker"
     ],
@@ -78,7 +78,7 @@
     "id": "imc_stryder",
     "license_level": 1,
     "source": "IMC",
-    "name": "STRYDER",
+    "name": "Stryder",
     "mechtype": [
       "Support"
     ],
@@ -149,7 +149,7 @@
     "id": "imc_ogre",
     "license_level": 1,
     "source": "IMC",
-    "name": "OGRE",
+    "name": "Ogre",
     "mechtype": [
         "Defender"
     ],
@@ -253,7 +253,7 @@
     "id": "militia_vanguard",
     "license_level": 2,
     "source": "MILITIA",
-    "name": "VANGUARD",
+    "name": "Vanguard",
     "mechtype": [
         "Balanced"
     ],
