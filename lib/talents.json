@@ -6,17 +6,17 @@
     "ranks": [
         {
             "name": "EZ M' Bark",
-            "description": "Entering and Exiting your Titan, is now an action.",
+            "description": "Entering and Exiting your Titan, is now a Quick Action.",
             "exclusive": true
         },
         {
             "name": "EZIR M' Bark",
-            "description": "Entering and Exiting your Titan, is now a Protocol.",
+            "description": "Exiting your Titan is now a Protocol and Entering is a Quick Action.",
             "exclusive": true
         },
         {
             "name": "EZIST M' Bark",
-            "description": "Entering and Exiting your Titan, is now a free action.",
+            "description": "Entering and Exiting your Titan, is now a Free Action.",
             "exclusive": true
         }
     ],
