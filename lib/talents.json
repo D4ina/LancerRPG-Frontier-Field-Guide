@@ -11,12 +11,12 @@
         },
         {
             "name": "EZIR M' Bark",
-            "description": "Entering and Exiting your Titan, is now a free action.",
+            "description": "Entering and Exiting your Titan, is now a Protocol.",
             "exclusive": true
         },
         {
             "name": "EZIST M' Bark",
-            "description": "Entering and Exiting your Titan, is now a Protocol.",
+            "description": "Entering and Exiting your Titan, is now a free action.",
             "exclusive": true
         }
     ],

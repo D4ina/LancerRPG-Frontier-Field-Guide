@@ -35,7 +35,7 @@
   {
     "id": "tg_chargeability",
     "name": "Charged Equipment {VAL}",
-    "description": "Activate Equipment at any time, equpment has a max operating time of {VAL}. Decrease the counter value by <b>1</b> for every turn it is active. Increase by <b>1</b> for every turn inactive until reaching {VAL}. After the equipment has been used you can use the equipment again aslong as the value is atlease equal to <b>1</b>.",
+    "description": "Activate Equipment at any time, equpment has a max operating time of {VAL}. Decrease the counter value by <b>1</b> for every turn it is active. Increase by <b>1</b> for every turn inactive until reaching {VAL}. After the equipment has been used you can use the equipment again aslong as the value is atleast equal to <b>1</b>.",
     "filter_ignore": false
   }
 ]
