@@ -19,7 +19,7 @@
             },
             {
                 "name": "Advanced Hack",
-                "activation": "Quick",
+                "activation": "Full",
                 "detail": "Hack a Titan or anything that may take more time or is determined to not be stored inside the Dataknifes storage.",
                 "cost": 1,
                 "pilot": true,
