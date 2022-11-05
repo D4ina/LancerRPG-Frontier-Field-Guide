@@ -1,0 +1,33 @@
+[
+    {
+        "id": "pltgr_dataknife",
+        "name": "Data Knife",
+        "description": "An essential tool of any Pilot. Allows the ability to easily access any form of terminal or hack automatons or even function as a joystick to pilot vehicles as demonstrated in the late Titan Wars by Pilot Jack Cooper.",
+        "type": "Gear",
+        "tags": [],
+        "actions": [
+            {
+                "name": "Basic Hack",
+                "activation": "Free",
+                "detail": "Hack a Terminal or any basic technology",
+                "cost": 1,
+                "pilot": true,
+                "tech_attack": true,
+                "log": [
+                    "Pilot has hacked a terminal"
+                ]
+            },
+            {
+                "name": "Advanced Hack",
+                "activation": "Quick",
+                "detail": "Hack a Titan or anything that may take more time or is determined to not be stored inside the Dataknifes storage.",
+                "cost": 1,
+                "pilot": true,
+                "tech_attack": true,
+                "log": [
+                    "Pilot has hacked a terminal"
+                ]
+            }
+        ]
+    }
+]
