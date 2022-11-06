@@ -29,5 +29,12 @@
                 ]
             }
         ]
+    },
+    {
+        "id": "pltgr_jumpkit",
+        "name": "Jump Kit",
+        "description": "An essential tool of any Pilot. Allows the ability to easily access any form of terminal or hack automatons or even function as a joystick to pilot vehicles as demonstrated in the late Titan Wars by Pilot Jack Cooper.",
+        "type": "Gear",
+        "tags": []
     }
 ]
