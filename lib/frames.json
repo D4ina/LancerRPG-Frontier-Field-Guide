@@ -15,7 +15,7 @@
       "Aux/Aux"
     ],
     "stats": {
-      "size": 1,
+      "size": 2,
       "structure": 4,
       "stress": 4,
       "armor": 2,
@@ -76,7 +76,7 @@
 
   {
     "id": "imc_stryder",
-    "license_level": 1,
+    "license_level": 2,
     "source": "IMC",
     "name": "Stryder",
     "mechtype": [
@@ -161,7 +161,7 @@
         "Aux"
     ],
     "stats": {
-        "size": 1,
+        "size": 2,
         "structure": 5,
         "stress": 4,
         "armor": 4,
