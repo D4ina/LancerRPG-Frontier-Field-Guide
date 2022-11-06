@@ -1,10 +1,5 @@
 [
   {
-    "id": "tg_dmg_arc",
-    "name": "Charged Rounds {VAL}",
-    "description": "Charged rounds grants electric or ARC damage equal to: {VAL}"
-  },
-  {
     "id": "tg_speedboost",
     "name": "Servo Boost {VAL}",
     "description": "Grants the Titan extended movement capabilities while moving on the ground equal to: {VAL}"
