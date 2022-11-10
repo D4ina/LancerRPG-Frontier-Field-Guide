@@ -31,7 +31,7 @@
     "ranks": [
         {
             "name": "Running in the 90s",
-            "description": "While running you are concidered 'FLYING'. While flying you can do the following:<br>can move vertically along walls after jumping between two walls.",
+            "description": "+1 Movement Speed as a Pilot",
             "exclusive": false
         },
         {
@@ -50,7 +50,7 @@
         },
         {
             "name": "Plot of the Pilot",
-            "description": "Lmao fuck it Plot for the Pilot. When you take damage as a pilot, roll 1d4. On an odd roll you take damage and on an even number the attack misses. On top of that Your pilot health is no longer equal to 1. It is now instead equal to 4.",
+            "description": "Lmao fuck it Plot for the Pilot. When you take damage as a pilot, roll 1d4. On an odd roll you take damage and on an even number the attack misses.",
             "exclusive": false
         }
     ],
