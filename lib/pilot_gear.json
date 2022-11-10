@@ -33,7 +33,7 @@
     {
         "id": "pltgr_jumpkit",
         "name": "Jump Kit",
-        "description": "An essential tool of any Pilot. Allows the ability to easily access any form of terminal or hack automatons or even function as a joystick to pilot vehicles as demonstrated in the late Titan Wars by Pilot Jack Cooper.",
+        "description": "While in pilot mode you can use the Jumpkit to '<b>WALLRUN</b>', while you are '' you count as '<b>FLYING</b> and can move 2 hexes for 1 point of movement. Jumping between walls counts as 1 point of movement as long as it is less than or equal to your total movement.<br> While wallrunning, if you have the '<b>PLOT OF THE PILOT</b>' talent then you may roll your pilot dodge with advantage.",
         "type": "Gear",
         "tags": []
     }
