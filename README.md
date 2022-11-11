@@ -25,3 +25,5 @@ As mentioned before the Certified Pilot Trait will most likely be split into 3 t
 ### KNOWN ISSUSES!
 
 IT IS A KNOWN ISSUE THAT if you have "The Long Rim Data .lcp" it will override some data on the Atlas frame. It is recommended that you disable other .lpc's if you are having issues with data displaying.
+
+Should you have any other issues, feel free to DM me on discord at 'Papa Scorch#4742' or even post your problem in the issues tab.
