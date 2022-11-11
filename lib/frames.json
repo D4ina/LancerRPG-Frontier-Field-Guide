@@ -76,7 +76,7 @@
 
   {
     "id": "imc_stryder",
-    "license_level": 2,
+    "license_level": 1,
     "source": "IMC",
     "name": "Stryder",
     "mechtype": [
@@ -113,10 +113,6 @@
       {
         "name": "[REACTION] Dash Capacitor (3 Turn Cooldown)",
         "description": "Stryder gains a recharging dash that can allows the titan to move 1 hex in any direction. Should your reaction be triggered by an attack, STRYDERs pilot will be required to make an agility save. Dash Capacitor requires 3 turns cooldown after use."
-      },
-	    {
-        "name": "Purpose Built",
-        "description": "Stryder was built for use in support roles. Stryder gains +1 to hit an enemy that attacked a friendly Titan this turn."
       },
       {
         "name": "Gel Joints",
