@@ -4,7 +4,7 @@
         "name": "IMO-117 Battery Saftey Override",
         "source": "IMC",
         "description": "<i>When IMC pilots requested a safety override of their battery systems, much of IMC leadership questioned the effects that it might lead to for their pilots safety. Instead pilots began modifying their titans to take a little charge from the new battery and overcharge their shields. Leading to a heavy increase in IMC performance.</i>",
-        "effect": "When you complete a '<b>RODEO</b> action by returning a battery to your titan; you also gain 2+GRIT Overshield. <i><b>NOTE:</b> If you pass a battery to another titan (<b>NOT YOUR OWN</b>), then they recieve the effects of this trait.</i>",
+        "effect": "When you complete a '<b>RODEO</b>' action by returning a battery to your titan; you also gain 2+GRIT Overshield. <i><b>NOTE:</b> If you pass a battery to another titan (<b>NOT YOUR OWN</b>), then they recieve the effects of this trait.</i>",
         "synergies": [{
             "locations": ["structure"],
             "detail": "When you complete a '<b>RODEO</b> action by returning a battery to your titan; you also gain 2+GRIT Overshield. <i><b>NOTE:</b> If you pass a battery to another titan (<b>NOT YOUR OWN</b>), then they recieve the effects of this trait.</i>"
