@@ -36,5 +36,29 @@
         "description": "While in pilot mode you can use the Jumpkit to '<b>WALLRUN</b>', while you are '' you count as '<b>FLYING</b> and can move 2 hexes for 1 point of movement. Jumping between walls counts as 1 point of movement as long as it is less than or equal to your total movement.<br> While wallrunning, if you have the '<b>PLOT OF THE PILOT</b>' talent then you may roll your pilot dodge with advantage.",
         "type": "Gear",
         "tags": []
-    }
+    },
+    {
+        "id": "pltgr_antititan",
+        "name": "Anti Titan",
+        "type": "Weapon",
+        "description": "Anti-Titan weapons that all pretty much do the same thing, deal lots of damage to titans. Choose one trait out of the lower: <br><ul><li>Sidewinder: +1d4 damage</li><li>Archer: Adds 2 Range AOE</li><li>MGL: Gains Arcing (Line of attack is indirect and can fire over obstacles)</li><li>Charge Rifle: Damage type is now Energy instead of Explosive.</li></ul><br>Enter the name of what you want into the equipment notes.",
+        "tags": [
+            {
+                "id": "tg_atweapon",
+                "val": "3"
+            }
+        ],
+        "range": [
+            {
+                "type": "Range",
+                "val": 6
+            }
+        ],
+        "damage": [
+            {
+                "type": "Explosive",
+                "val": "3d4"
+            }
+        ]
+      }
 ]
