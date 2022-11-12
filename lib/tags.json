@@ -26,7 +26,12 @@
     "description": "Pilot tasks that can be started outside your titan but must finish the turn back inside your titan.",
     "filter_ignore": true
   },
-
+  {
+    "id": "tg_atweapon",
+    "name": "Anti-Titan Weapon",
+    "description": "All damage done against Titans / Lancers is <b>x{VAL}</b>",
+    "filter_ignore": true
+  },
   {
     "id": "tg_chargeability",
     "name": "Charged Equipment {VAL}",
