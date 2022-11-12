@@ -3,18 +3,18 @@
         "id": "imc_safetyrequirements",
         "name": "IMO-117 Battery Saftey Override",
         "source": "IMC",
-        "description": "<i>Upgrading the spare parts and universal repair systems inherent to mechs and enhancing them with the addition of our proprietary nanoslurry will make sure you don’t die! And really, isn’t that just the best? We use the same kinda stuff in Dorothy’s nanotanks and it comes with a manna-back-guarantee if it doesn’t save your skin at least once a deployment.</i>",
-        "effect": "When you complete a '<b>RODEO</b> action by returning a battery to your titan; you also gain 2+GRIT Overshield.",
+        "description": "<i>When IMC pilots requested a safety override of their battery systems, much of IMC leadership questioned the effects that it might lead to for their pilots safety. Instead pilots began modifying their titans to take a little charge from the new battery and overcharge their shields. Leading to a heavy increase in IMC performance.</i>",
+        "effect": "When you complete a '<b>RODEO</b> action by returning a battery to your titan; you also gain 2+GRIT Overshield. <i><b>NOTE:</b> If you pass a battery to another titan (<b>NOT YOUR OWN</b>), then they recieve the effects of this trait.</i>",
         "synergies": [{
             "locations": ["structure"],
-            "detail": "When you complete a '<b>RODEO</b> action by returning a battery to your titan; you also gain 2+GRIT Overshield."
+            "detail": "When you complete a '<b>RODEO</b> action by returning a battery to your titan; you also gain 2+GRIT Overshield. <i><b>NOTE:</b> If you pass a battery to another titan (<b>NOT YOUR OWN</b>), then they recieve the effects of this trait.</i>"
         }]
     },
     {
         "id": "imc_doomed",
         "name": "IMP-99 Doomed Assassin",
         "source": "IMC",
-        "description": "<i>Upgrading the spare parts and universal repair systems inherent to mechs and enhancing them with the addition of our proprietary nanoslurry will make sure you don’t die! And really, isn’t that just the best? We use the same kinda stuff in Dorothy’s nanotanks and it comes with a manna-back-guarantee if it doesn’t save your skin at least once a deployment.</i>",
+        "description": "<i>STOMPY ROBOTS LIKE TO GO PEW PEW. BUT SOME LIKE TO SQUASH PILOTS IN THEIR HANDS... 'Ewww, sticky!'</i>",
         "effect": "If a titans structure is equal to 1 you may perform an assasination by initiating a melee attack. This instantly kills the pilot (If inside) and makes the titan unsuable.",
         "synergies": [{
             "locations": ["structure"],
@@ -25,7 +25,7 @@
         "id": "imc_ampedtitan",
         "name": "IMW-812 Amped Modifications",
         "source": "IMC",
-        "description": "<i>Upgrading the spare parts and universal repair systems inherent to mechs and enhancing them with the addition of our proprietary nanoslurry will make sure you don’t die! And really, isn’t that just the best? We use the same kinda stuff in Dorothy’s nanotanks and it comes with a manna-back-guarantee if it doesn’t save your skin at least once a deployment.</i>",
+        "description": "<i>Pew pew. I heard you want to do more damage? Well now you can.</i>",
         "effect": "After any critical success your weapons are overcharged and deal max damage on your next attack. But take +2 dificulty to hit.",
         "synergies": [{
             "locations": ["weapons"],
@@ -37,7 +37,7 @@
         "id": "imc_defender",
         "name": "IMA-02 Mesh Based Armor",
         "source": "IMC",
-        "description": "<i>Upgrading the spare parts and universal repair systems inherent to mechs and enhancing them with the addition of our proprietary nanoslurry will make sure you don’t die! And really, isn’t that just the best? We use the same kinda stuff in Dorothy’s nanotanks and it comes with a manna-back-guarantee if it doesn’t save your skin at least once a deployment.</i>",
+        "description": "<i>For those that want to play Stryder more... :3 I got you <3</i>",
         "effect": "When dashing gain +1 armor. <b>ONLY COUNTS DURING THE REACTION</b>",
         "synergies": [{
             "locations": ["weapons"],
