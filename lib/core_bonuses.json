@@ -1,0 +1,47 @@
+[
+    {
+        "id": "imc_safetyrequirements",
+        "name": "IMO-117 Battery Saftey Override",
+        "source": "IMC",
+        "description": "<i>Upgrading the spare parts and universal repair systems inherent to mechs and enhancing them with the addition of our proprietary nanoslurry will make sure you don’t die! And really, isn’t that just the best? We use the same kinda stuff in Dorothy’s nanotanks and it comes with a manna-back-guarantee if it doesn’t save your skin at least once a deployment.</i>",
+        "effect": "When you complete a '<b>RODEO</b> action by returning a battery to your titan; you also gain 2+GRIT Overshield.",
+        "synergies": [{
+            "locations": ["structure"],
+            "detail": "When you complete a '<b>RODEO</b> action by returning a battery to your titan; you also gain 2+GRIT Overshield."
+        }]
+    },
+    {
+        "id": "imc_doomed",
+        "name": "IMP-99 Doomed Assassin",
+        "source": "IMC",
+        "description": "<i>Upgrading the spare parts and universal repair systems inherent to mechs and enhancing them with the addition of our proprietary nanoslurry will make sure you don’t die! And really, isn’t that just the best? We use the same kinda stuff in Dorothy’s nanotanks and it comes with a manna-back-guarantee if it doesn’t save your skin at least once a deployment.</i>",
+        "effect": "If a titans structure is equal to 1 you may perform an assasination by initiating a melee attack. This instantly kills the pilot (If inside) and makes the titan unsuable.",
+        "synergies": [{
+            "locations": ["structure"],
+            "detail": "If a titans structure is equal to 1 you may perform an assasination by initiating a melee attack. This instantly kills the pilot (If inside) and makes the titan unsuable."
+        }]
+    },
+    {
+        "id": "imc_ampedtitan",
+        "name": "IMW-812 Amped Modifications",
+        "source": "IMC",
+        "description": "<i>Upgrading the spare parts and universal repair systems inherent to mechs and enhancing them with the addition of our proprietary nanoslurry will make sure you don’t die! And really, isn’t that just the best? We use the same kinda stuff in Dorothy’s nanotanks and it comes with a manna-back-guarantee if it doesn’t save your skin at least once a deployment.</i>",
+        "effect": "After any critical success your weapons are overcharged and deal max damage on your next attack. But take +2 dificulty to hit.",
+        "synergies": [{
+            "locations": ["weapons"],
+            "detail": "After any critical success your weapons are overcharged and deal max damage on your next attack. But take +2 dificulty to hit.",
+            "weapon_types": ["Rifle", "Cannon", "CQB", "Melee"]
+        }]
+    },
+    {
+        "id": "imc_defender",
+        "name": "IMA-02 Mesh Based Armor",
+        "source": "IMC",
+        "description": "<i>Upgrading the spare parts and universal repair systems inherent to mechs and enhancing them with the addition of our proprietary nanoslurry will make sure you don’t die! And really, isn’t that just the best? We use the same kinda stuff in Dorothy’s nanotanks and it comes with a manna-back-guarantee if it doesn’t save your skin at least once a deployment.</i>",
+        "effect": "When dashing gain +1 armor. <b>ONLY COUNTS DURING THE REACTION</b>",
+        "synergies": [{
+            "locations": ["weapons"],
+            "detail": "When dashing gain +1 armor. <b>ONLY COUNTS DURING THE REACTION</b>"
+        }]
+    }
+]
