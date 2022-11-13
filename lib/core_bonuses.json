@@ -26,10 +26,10 @@
         "name": "IMW-812 Amped Modifications",
         "source": "IMC",
         "description": "<i>Pew pew. I heard you want to do more damage? Well now you can.</i>",
-        "effect": "After any critical success your weapons are overcharged and deal max damage on your next attack. But take +2 dificulty to hit.",
+        "effect": "After any critical success your weapons become overcharged and deal max damage on your next attack. But take +2 dificulty to hit.",
         "synergies": [{
             "locations": ["weapons"],
-            "detail": "After any critical success your weapons are overcharged and deal max damage on your next attack. But take +2 dificulty to hit.",
+            "detail": "After any critical success your weapons become overcharged and deal max damage on your next attack. But take +2 dificulty to hit.",
             "weapon_types": ["Rifle", "Cannon", "CQB", "Melee"]
         }]
     },
@@ -40,7 +40,7 @@
         "description": "<i>For those that want to play Stryder more... :3 I got you <3</i>",
         "effect": "When dashing gain +1 armor. <b>ONLY COUNTS DURING THE REACTION</b>",
         "synergies": [{
-            "locations": ["weapons"],
+            "locations": ["system"],
             "detail": "When dashing gain +1 armor. <b>ONLY COUNTS DURING THE REACTION</b>"
         }]
     }

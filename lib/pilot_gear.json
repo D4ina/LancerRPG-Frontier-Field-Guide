@@ -41,7 +41,7 @@
         "id": "pltgr_antititan",
         "name": "Anti Titan",
         "type": "Weapon",
-        "description": "Anti-Titan weapons that all pretty much do the same thing, deal lots of damage to titans. Choose one trait out of the lower: <br><ul><li>Sidewinder: +1d4 damage</li><li>Archer: Adds 2 Range AOE</li><li>MGL: Gains Arcing (Line of attack is indirect and can fire over obstacles)</li><li>Charge Rifle: Damage type is now Energy instead of Explosive.</li></ul><br>Enter the name of what you want into the equipment notes.",
+        "description": "All Anti-Titan weapons pretty much do the same thing, deal lots of damage to titans. Choose one trait out of the lower: <br><ul><li>Sidewinder: +1d4 damage</li><li>Archer: Adds 2 Range AOE</li><li>MGL: Gains Arcing (Line of attack is indirect and can fire over obstacles)</li><li>Charge Rifle: Damage type is now Energy instead of Explosive.</li></ul><br>Enter the name of what you want into the equipment notes.",
         "tags": [
             {
                 "id": "tg_atweapon",
