@@ -246,6 +246,112 @@
   },
 
   {
+    "id": "imc_bison",
+    "license_level": 4,
+    "source": "IMC",
+    "name": "Bison",
+    "variant": "Ogre",
+    "mechtype": [
+        "Defender"
+    ],
+    "image_url": "https://www.dropbox.com/s/92r79x3xp0k4pk9/ogre-imc.png?raw=1",
+    "y_pos": 16,
+    "description": "The H-KA02/a Ogre Heavy Titan is a Titan model produced by Hammond Armament Division and Wonyeon Defense. Developed as an extremely tough Titan chassis, the Ogre's design has been compared to a main battle tank, optimized for taking higher amounts of damage and dealing out more than the Atlas or Stryder Titans. The Ogre stands slightly taller than the Atlas and has bulkier armor. The main entry point of an Ogre is via a large hatch on its top rather than the chest, like the Atlas or Stryder. The Ogre is equipped with a Shield Core, which amps the Titan's shield for a limited time.",
+    "mounts": [
+        "Heavy",
+        "Aux"
+    ],
+    "stats": {
+        "size": 2,
+        "structure": 5,
+        "stress": 4,
+        "armor": 4,
+        "hp": 12,
+        "evasion": 8,
+        "edef": 8,
+        "heatcap": 5,
+        "repcap": 6,
+        "sensor_range": 4,
+        "tech_attack": 0,
+        "save": 10,
+        "speed": 3,
+        "sp": 5
+    },
+    "traits": [
+      {
+        "name": "ITS A WALKING FRIDGE",
+        "description": "OGRE can be used for hard cover by adjacent allied characters. OGRE also counts as one size above for the purpose of interactions."
+      },
+      {
+        "name": "Heavy Frame",
+        "description": "OGRE cannot be knocked back, pushed, pulled, or be knocked prone by actors smaller than itself."
+      },
+      {
+        "name": "Slow",
+        "description": "OGRE gets +1 Difficulty on agility checks and saves.",
+        "synergies": [
+          {
+            "locations": [ "agility", "skill_check" ],
+            "detail": "OGRE gains +1 Difficulty on Agility checks and saves."
+          }
+        ]
+      }
+    ],
+    "core_system": {
+      "name": "Shield Core",
+      "description": "Lifes good, I like living, so whats better than a literal shield wall that blocks projectiles from hitting you while still being able to fire back.",
+      "active_name": "Big Blue Friend",
+      "active_effect": "Drop a lightwall barrier at your feet. It has 10hp and blocks all incoming projectiles as if it is hard cover. Once placed the Hardwall cannot be moved unless picked up and repositioned.",
+      "activation": "Quick",
+      "deactivation": "Quick",
+      "deployables": {
+        "name": "Hardwall",
+        "type": "Deployable Cover",
+        "detail": "Drop a wall at your Feet that wraps one hex to the left and right around where your mech is located.",
+        "size": "3",
+        "activation": "Quick",
+        "deactivation": "Quick",
+        "redeploy": "Quick",
+        "instances": 1,
+        "cost": 1,
+        "armor": 1,
+        "hp": 10,
+        "evasion": 0,
+        "edef": 0,
+        "heatcap": 0,
+        "repcap": 0,
+        "sensor_range": 0,
+        "tech_attack": 0,
+        "save": 0,
+        "speed": 0,
+        "pilot": false,
+        "mech": true,
+        "actions": [],
+        "bonuses": [],
+        "synergies":[],
+        "counters": [
+          {
+            "id": "count_shieldcorecounter2",
+            "name": "Deployed Shield Capacity",
+            "default_value": 10,
+            "min": 0,
+            "max": 10
+          }
+        ],
+        "tags":[
+          {
+            "id": "tg_smart_iff",
+            "val": "friendly"
+          }
+        ]
+      },
+      "tags": [
+      ]
+    }
+  },
+
+
+  {
     "id": "militia_vanguard",
     "license_level": 2,
     "source": "MILITIA",

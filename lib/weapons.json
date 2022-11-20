@@ -5,7 +5,7 @@
 		"source": "IMC",
 		"license": "Ogre",
 		"license_id": "imc_ogre",
-		"license_level": 4,
+		"license_level": 3,
 		"mount": "Heavy",
 		"type": "Cannon",
 		"cost": 2,
