@@ -267,6 +267,112 @@
 	},
 
 	{
+		"id": "imc_bifist_intergrated",
+		"name": "Bison Gauntlets",
+		"source": "IMC",
+		"license": "Bison",
+		"license_id": "imc_bison",
+		"license_level": 1,
+		"mount": "Integrated",
+		"type": "CQB",
+		"cost": 1,
+		"no_attack": false,
+		"no_mods": false,
+		"no_core_bonus": false,
+		"profiles":[
+			{
+				"name": "Compounded Melee",
+				"barrage": true,
+				"skirmish": true,
+				"damage": [
+					{
+						"type": "Kinetic",
+						"val": "1d6"
+					}
+				],
+				"range": [
+					{
+					"type": "Threat",
+					"val": 1
+					}
+				],
+				"tags": [
+				]
+			},
+			{
+				"name": "FistShot",
+				"barrage": true,
+				"skirmish": true,
+				"effect": "",
+				"on_attack": "If used in Barrage then this attack deals 1 heat to the user.",
+				"damage": [
+					{
+						"type": "Kinetic",
+						"val": "2d4"
+					},
+					{
+						"type": "Heat",
+						"val": "1"
+					}
+				],
+				"range": [
+					{
+					"type": "Range",
+					"val": "5"
+					}
+				],
+				"tags": [
+					{
+						"id": "tg_reliable",
+						"val": 2
+					}
+				  ]
+			}
+		],
+		"sp": 4,
+		"description": "You may attack with either attack option as a quick action.",
+		"no_bonus": true,
+		"no_synergy": true
+	  },
+
+	  {
+		"id": "imc_bisongrapple",
+		"name": "Shoulder Mounted Grapple Hook",
+		"source": "IMC",
+		"license": "Bison",
+		"license_id": "imc_bison",
+		"license_level": 2,
+		"mount": "Auxiliary",
+		"type": "Launcher",
+		"cost": 1,
+		"barrage": true,
+		"skirmish": true,
+		"no_attack": false,
+		"no_mods": false,
+		"no_core_bonus": false,
+		"damage": [{
+		  "type": "Kinetic",
+		  "val": "1d3"
+		}],
+		"range": [{
+		  "type": "Thrown",
+		  "val": 10
+		}],
+		"sp": 1,
+		"description": "SMGH is a mounted grapplehook that acts more like a harpoon than anything.",
+		"no_bonus": true,
+		"no_synergy": true,
+		"on_hit": "Pull the target 4 hexes towards yourself. If the target is a biological the effect fails.",
+		"effect": "",
+		"tags": [
+			{
+				"id": "tg_loading"
+			}
+		]
+	},
+
+
+	{
 		"id": "imc_xo16",
 		"name": "XO-16 Chaingun",
 		"source": "IMC",
