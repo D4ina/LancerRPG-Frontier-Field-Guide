@@ -14,7 +14,11 @@ Certified Pilot Trait for changing gameplay to make it feel more like titanfall.
 TF2 Titans (Northstar, Tone, Ronin, Ion, Scorch, Legion)
 MOAR WEAPONS (Both Lore and Custom)
 
-Hacker Frames, based on the Original 3 but take use of LancerRPGs hacking / Tech Attacks for a bit more variety.
+Hacker Frame, based on one of the Original 3 but take use of LancerRPGs hacking / Tech Attacks for a bit more variety.
+
+Bison, an unreleased frame. This will be built up from some concensus from Reddit and other additions I have found on the web that make what I have envisioned.
+
+Templar, a dedicated Artillery titan frame. Not much else needs to be said.
 
 A bunch of Titanfall themed Mech Mods
 
