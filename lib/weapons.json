@@ -269,7 +269,7 @@
 	{
 		"id": "imc_bifist_intergrated",
 		"name": "Bison Gauntlets",
-		"source": "IMC",
+		"source": "MILITIA",
 		"license": "Bison",
 		"license_id": "imc_bison",
 		"license_level": 1,
