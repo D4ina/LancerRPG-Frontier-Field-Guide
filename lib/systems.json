@@ -95,6 +95,46 @@
     "description": "Adds dash jets to react to incoming attacks and dodge out of the way.",
     "tags": [
     ]
+  },
+
+  {
+    "id": "sys_bulkup",
+    "name": "Bulk Shield",
+    "source": "Militia",
+    "license": "Bison",
+    "license_id": "militia_bison",
+    "license_level": 2,
+    "effect": "",
+    "type": "System",
+    "sp": 2,
+    "description": "Bison Deploys a dome shield that extends for 4 tiles from the center. While inside the bubble all damage is reduced by 1d6+Structure.",
+    "deployables": [
+      {
+        "name": "Bulk Shield",
+        "type": "Dome",
+        "detail": "Bulk Shield Detail Section",
+        "size": 4,
+        "activation": "action",
+        "deactivation": "quick",
+        "instances": 1,
+        "cost": 1,
+        "armor": 1,
+        "hp": 10,
+        "evasion": 0,
+        "edef": 8,
+        "heatcap": 1,
+        "repcap": 1,
+        "sensor_range": 0,
+        "tech_attack": 0,
+        "save": 6,
+        "speed": 0,
+        "pilot": false,
+        "mech": true,
+        "tags": []
+      }
+    ],
+    "tags": [
+    ]
   }
 
 ]

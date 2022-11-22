@@ -284,7 +284,7 @@
       },
       {
         "name": "Juggernaut Type",
-        "description": "If the BISON is moving then you may add +3 to agility Saves. You may also add +1 to your speed for every turn spent in motion. (<i>Resets after stopping</i>)",
+        "description": "If the BISON is moving then you may add +3 to agility Saves and +6 to your agility. You may also add +1 to your speed for every turn spent in motion. (<i>Resets after stopping</i>)",
         "synergies": [
           {
             "locations": [ "agility", "skill_check" ],
@@ -330,7 +330,7 @@
       "name": "Beserker Core",
       "description": "<i>D&D moment. When your beserker rages even the fires of hell turn up to watch the chaos that will ensue.</i>",
       "active_name": "Wildfire of the Frontier",
-      "active_effect": "Bison gains the following effects from Beserker Core: <br> <ul><li>+1 Speed</li> <li>All attacks now gain 1d6 burn damage.</li> <li>All weapons with the loading tag are ignored while beserker core is enabled.</li>", 
+      "active_effect": "Bison gains the following effects from Beserker Core: <br> <ul><li>+1 Speed</li> <li>All attacks now gain 1d6 burn damage.</li> <li>All weapons with the loading tag are ignored while beserker core is enabled.</li></ul>", 
       "activation": "Quick",
       "deactivation": "Quick",
       "counters": {
