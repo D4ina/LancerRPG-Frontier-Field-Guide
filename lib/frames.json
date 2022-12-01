@@ -90,7 +90,7 @@
       "Flex"
     ],
     "stats": {
-      "size": 1,
+      "size": 2,
       "structure": 3,
       "stress": 4,
       "armor": 1,
@@ -160,8 +160,8 @@
         "size": 2,
         "structure": 5,
         "stress": 4,
-        "armor": 4,
-        "hp": 12,
+        "armor": 3,
+        "hp": 10,
         "evasion": 8,
         "edef": 8,
         "heatcap": 5,
