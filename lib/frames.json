@@ -5,7 +5,7 @@
     "source": "IMC",
     "name": "Atlas",
     "mechtype": [
-      "Striker"
+      "Balanced"
     ],
     "image_url": "https://www.dropbox.com/s/tsk987szzfk6z71/atlas-imc.png?raw=1",
     "y_pos": 13,
@@ -90,7 +90,7 @@
       "Flex"
     ],
     "stats": {
-      "size": 1,
+      "size": 2,
       "structure": 3,
       "stress": 4,
       "armor": 1,
@@ -160,8 +160,8 @@
         "size": 2,
         "structure": 5,
         "stress": 4,
-        "armor": 4,
-        "hp": 12,
+        "armor": 3,
+        "hp": 10,
         "evasion": 8,
         "edef": 8,
         "heatcap": 5,
@@ -246,110 +246,104 @@
   },
 
   {
-    "id": "imc_bison",
-    "license_level": 4,
-    "source": "IMC",
+    "id": "militia_bison",
+    "license_level": 1,
+    "source": "MILITIA",
     "name": "Bison",
-    "variant": "Ogre",
     "mechtype": [
-        "Defender"
+        "Striker"
     ],
-    "image_url": "https://www.dropbox.com/s/92r79x3xp0k4pk9/ogre-imc.png?raw=1",
+    "image_url": "https://www.dropbox.com/s/eh04br8xnp749x2/bison.png?raw=1",
     "y_pos": 16,
-    "description": "The H-KA02/a Ogre Heavy Titan is a Titan model produced by Hammond Armament Division and Wonyeon Defense. Developed as an extremely tough Titan chassis, the Ogre's design has been compared to a main battle tank, optimized for taking higher amounts of damage and dealing out more than the Atlas or Stryder Titans. The Ogre stands slightly taller than the Atlas and has bulkier armor. The main entry point of an Ogre is via a large hatch on its top rather than the chest, like the Atlas or Stryder. The Ogre is equipped with a Shield Core, which amps the Titan's shield for a limited time.",
+    "description": "The KA-BI50N was originally a mining mech from Kodai Mining Industries (A subsidiary of the IMC) though after the destruction of Demeter many workers defected to the Militia bringing their modified Ogre frames with them. The Bison represents some of the Militias best ingenuity at work, combining what they learnt from the Vanguard with IMC technology. At this point in time there are very limited Bison in use due to the limited production of Kodai Mining varients of Ogre Frames but they still see very active use in some post Typhon battles.</i>",
     "mounts": [
-        "Heavy",
+        "Integrated",
         "Aux"
     ],
+    "integrated": ["imc_bifist_intergrated"],
     "stats": {
         "size": 2,
-        "structure": 5,
+        "structure": 4,
         "stress": 4,
-        "armor": 4,
-        "hp": 12,
-        "evasion": 8,
-        "edef": 8,
-        "heatcap": 5,
-        "repcap": 6,
-        "sensor_range": 4,
+        "armor": 2,
+        "hp": 14,
+        "evasion": 6,
+        "edef": 10,
+        "heatcap": 4,
+        "repcap": 4,
+        "sensor_range": 8,
         "tech_attack": 0,
         "save": 10,
         "speed": 3,
-        "sp": 5
+        "sp": 3
     },
     "traits": [
       {
-        "name": "ITS A WALKING FRIDGE",
-        "description": "OGRE can be used for hard cover by adjacent allied characters. OGRE also counts as one size above for the purpose of interactions."
+        "name": "Sub-Frame",
+        "description": "BISON is a subframe of the OGRE titan. Please double check in with your DM/GM before using this titan if they will allow you to use it.<br> Recommended Case: GM requires you to have 2LL in OGRE!"
       },
       {
-        "name": "Heavy Frame",
-        "description": "OGRE cannot be knocked back, pushed, pulled, or be knocked prone by actors smaller than itself."
-      },
-      {
-        "name": "Slow",
-        "description": "OGRE gets +1 Difficulty on agility checks and saves.",
+        "name": "Juggernaut Type",
+        "description": "If the BISON is moving then you may add +3 to agility Saves and +6 to your agility. You may also add +1 to your speed for every turn spent in motion. (<i>Resets after stopping</i>)",
         "synergies": [
           {
             "locations": [ "agility", "skill_check" ],
-            "detail": "OGRE gains +1 Difficulty on Agility checks and saves."
+            "detail": "BISON gains +3 on Agility checks and saves if the titan has moved this turn."
+          }
+        ]
+      },
+      {
+        "name": "Heavy Frame",
+        "description": "Bison cannot be knocked back, pushed, pulled, or be knocked prone by actors smaller than itself."
+      },
+      {
+        "name": "Bulk Up",
+        "description": "Bison Deploys a dome shield that extends for 4 tiles from the center. While inside the bubble all damage is reduced by 1d6+Structure.",
+        "deployables": [
+          {
+            "name": "Bulk Shield",
+            "type": "Dome",
+            "detail": "Bulk Shield Detail Section",
+            "size": 4,
+            "activation": "action",
+            "deactivation": "quick",
+            "instances": 1,
+            "cost": 1,
+            "armor": 1,
+            "hp": 10,
+            "evasion": 0,
+            "edef": 8,
+            "heatcap": 1,
+            "repcap": 1,
+            "sensor_range": 0,
+            "tech_attack": 0,
+            "save": 6,
+            "speed": 0,
+            "pilot": false,
+            "mech": true,
+            "tags": []
           }
         ]
       }
     ],
     "core_system": {
-      "name": "Shield Core",
-      "description": "Lifes good, I like living, so whats better than a literal shield wall that blocks projectiles from hitting you while still being able to fire back.",
-      "active_name": "Big Blue Friend",
-      "active_effect": "Drop a lightwall barrier at your feet. It has 10hp and blocks all incoming projectiles as if it is hard cover. Once placed the Hardwall cannot be moved unless picked up and repositioned.",
+      "name": "Beserker Core",
+      "description": "<i>D&D moment. When your beserker rages even the fires of hell turn up to watch the chaos that will ensue.</i>",
+      "active_name": "Wildfire of the Frontier",
+      "active_effect": "Bison gains the following effects from Beserker Core: <br> <ul><li>+1 Speed</li> <li>All attacks now gain 1d6 burn damage.</li> <li>All weapons with the loading tag are ignored while beserker core is enabled.</li></ul>", 
       "activation": "Quick",
       "deactivation": "Quick",
-      "deployables": {
-        "name": "Hardwall",
-        "type": "Deployable Cover",
-        "detail": "Drop a wall at your Feet that wraps one hex to the left and right around where your mech is located.",
-        "size": "3",
-        "activation": "Quick",
-        "deactivation": "Quick",
-        "redeploy": "Quick",
-        "instances": 1,
-        "cost": 1,
-        "armor": 1,
-        "hp": 10,
-        "evasion": 0,
-        "edef": 0,
-        "heatcap": 0,
-        "repcap": 0,
-        "sensor_range": 0,
-        "tech_attack": 0,
-        "save": 0,
-        "speed": 0,
-        "pilot": false,
-        "mech": true,
-        "actions": [],
-        "bonuses": [],
-        "synergies":[],
-        "counters": [
-          {
-            "id": "count_shieldcorecounter2",
-            "name": "Deployed Shield Capacity",
-            "default_value": 10,
-            "min": 0,
-            "max": 10
-          }
-        ],
-        "tags":[
-          {
-            "id": "tg_smart_iff",
-            "val": "friendly"
-          }
-        ]
+      "counters": {
+        "id": "beserkercore",
+        "name": "Beserker Core Countdown",
+        "default_value": 3,
+        "min": 0,
+        "max": 3
       },
       "tags": [
       ]
     }
   },
-
 
   {
     "id": "militia_vanguard",
