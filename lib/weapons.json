@@ -14,30 +14,6 @@
 		"no_core_bonus": false,
 		"profiles": [
 			{
-				"name": "Standard Mode",
-				"barrage": true,
-				"skirmish": true,
-				"damage": [
-					{
-						"type": "Kinetic",
-						"val": "1d10"
-					}
-				],
-				"range": [
-					{
-						"type": "Range",
-						"val": 8
-					}
-				],
-				"actions": [{
-					"name": "Standard Switch",
-					"activation": "Quick",
-					"detail": "Switch between Standard and Distance or Power Modes"
-				}],
-				  "tags": [
-				]
-			},
-			{
 				"name": "Distance Mode",
 				"barrage": true,
 				"skirmish": true,
@@ -54,9 +30,9 @@
 					}
 				],
 				"actions": [{
-					"name": "Return Switch",
+					"name": "Power Switch",
 					"activation": "Protocol",
-					"detail": "Return to Standard mode. (You cannot switch to Power Mode from here)"
+					"detail": "Change to Power Mode"
 				}],
 				"tags": [
 					{
@@ -83,7 +59,7 @@
 				"actions": [{
 					"name": "Return Switch",
 					"activation": "Protocol",
-					"detail": "Return to Standard mode. (You cannot switch to Distance Mode from here)"
+					"detail": "Return to Range mode."
 				}],
 				"tags": [
 					{
@@ -125,7 +101,7 @@
 		"profiles":[
 			{
 				"name": "Standard",
-				"barrage": false,
+				"barrage": true,
 				"skirmish": true,
 				"damage": [
 					{
@@ -151,7 +127,7 @@
 				"name": "Charged",
 				"barrage": true,
 				"skirmish": false,
-				"effect": "For every round you hold your charge <b><u>Xd6</u></b> increase by 1, you also gain <b>accuracy</b> and <b>range</b> equal to the same value aswell. EG: Switch to charged mode hold for 3 rounds becomes 3d6.",
+				"effect": "For every round you hold your charge <b><u>1d6</u></b> doubles (1/2/4/8/16), you also gain <b>accuracy</b> and <b>range</b> equal to the same value aswell. EG: Switch to charged mode hold for 4 rounds becomes 8d6.",
 				"on_attack": "When you fire in charged mode you <b>MUST</b> switch back to Standard.",
 				"damage": [
 					{
@@ -173,6 +149,10 @@
 					{
 						"id": "tg_reliable",
 						"val": 2
+					},
+					{
+						"id": "tg_accurate",
+						"val": "x"
 					}
 				  ]
 			}
@@ -583,6 +563,7 @@
 			},
 			{
 				"name": "Artillery",
+				"on_attack": "Attack recieves a +3 diffculty to hit if the titan has moved before the attack (Same Turn)"
 				"barrage": true,
 				"skirmish": false,
 				"damage": [
@@ -608,7 +589,7 @@
 				"tags":[
 					{
 						"id": "tg_reliable",
-						"val": 2
+						"val": 4
 					},
 					{
 						"id": "tg_arcing"
