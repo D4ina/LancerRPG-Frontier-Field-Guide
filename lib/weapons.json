@@ -563,7 +563,7 @@
 			},
 			{
 				"name": "Artillery",
-				"on_attack": "Attack recieves a +3 diffculty to hit if the titan has moved before the attack (Same Turn)"
+				"on_attack": "Attack recieves a +3 diffculty to hit if the titan has moved before the attack (Same Turn)",
 				"barrage": true,
 				"skirmish": false,
 				"damage": [
@@ -682,6 +682,46 @@
 			  "id": "tg_ordinance"
 		  }
 		]
-	}
+	},
 
+	{
+		"id": "imc_ronin_mk1sword",
+		"name": "Carbon Fiber Sword",
+		"source": "EXOTIC",
+		"mount": "Main",
+		"type": "Melee",
+		"cost": 1,
+		"barrage": true,
+		"skirmish": true,
+		"no_attack": false,
+		"no_mods": true,
+		"no_core_bonus": false,
+		"damage": [
+			{
+				"type": "Kinetic",
+				"val": "3d3"
+			},
+			{
+				"type": "Energy",
+				"val": "2"
+			}
+		],
+		"range": [
+			{
+				"type": "Threat",
+				"val": 3
+			}
+		],
+		"sp": 1,
+		"description": "A superheavy, yet extraodinarily light sword. It is well cut but has very weird properties.",
+		"no_bonus": true,
+		"no_synergy": true,
+		"special_equipment": "imc_ronin_mk1",
+		"effect": "When you may attack, consider the following:<br> - Once per encounter you may make two attacks as if it was one.<br> - When used in Barrage this weapon can count for both attacks.",
+		"tags": [
+			{
+				"id": "tg_exotic"
+			}
+		]
+	}
 ]
