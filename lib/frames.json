@@ -426,5 +426,74 @@
           }
       ]
     }
+  },
+
+  {
+    "id": "tf2_northstar",
+    "license_level": 3,
+    "license_id": "imc_stryder",
+    "variant": "Stryder",
+    "source": "IMC",
+    "name": "Northstar",
+    "mechtype": 
+      [
+        "Artillery"
+      ],
+    "specialty": false, 
+    "description": "this is a description of the Northstar.",
+    "mounts": [
+      "Main",
+      "Aux/Aux"
+    ],
+    "stats": {
+      "size": 1,
+      "structure": 3,
+      "stress": 2,
+      "armor": 2,
+      "hp": 8,
+      "evasion": 13,
+      "edef": 10,
+      "heatcap": 10,
+      "repcap": 4,
+      "sensor_range": 8,
+      "tech_attack": 3,
+      "save": 10,
+      "speed": 4,
+      "sp": 6
+    },
+    "traits": [
+      {
+        "name": "Thin Frame",
+        "description": "If you move during your turn your armor is equal to 3 until the start of your next turn."
+      },
+      {
+        "name": "[REACTION] Dash Capacitor (3 Turn Cooldown)",
+        "description": "Stryder gains a recharging dash that can allows the titan to move 1 hex in any direction. Should your reaction be triggered by an attack, STRYDERs pilot will be required to make an agility save. Dash Capacitor requires 3 turns cooldown after use."
+      },
+      {
+        "name": "Gel Joints",
+        "description": "Styder has -1 Difficulty on Agility checks and saves.",
+        "synergies": [
+          {
+            "locations": [ "agility", "skill_check" ],
+            "detail": "The Stryder gains +1 on Agility checks and saves."
+          }
+        ]
+      }
+    ],
+    "core_system": {
+      "name": "Overdrive Subsystems",
+      "description": "Dash Core is a special core ability for the Stryder Titan. When activated, after 2.5 seconds it will allow players to dash as much as possible for 12.6 seconds, 17.892 seconds with Core Extender, and instantly starts your Titan's shield recharge.",
+      "active_name": "Dash Core",
+      "active_effect": "Upon activation the Stryder gains the folowing Effects until the end of its next turn:<br> - Stryder gains +2 to Agility checks and Saves<br> - Stryder gains max movement equal to its dash.<br> - Upon ending its turn complete the 'Stabilize' full action.",
+      "activation": "Quick",
+      "use": "Next Round",
+      "tags": [
+        {
+          "id": "tg_speedboost",
+          "val": 1
+        }
+      ]
+    }
   }
 ]
